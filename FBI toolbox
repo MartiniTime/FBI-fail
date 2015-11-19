@@ -1,0 +1,2198 @@
+
+REGFIX: Batch file processing initiated.
+REGFIX: Updating arbitrators...
+REGFIX: Deleting original values...
+REGFIX:    Replace %PNP0401% ... "*PNP0401\00"
+REGFIX:    Replace %PNP0501% ... "*PNP0501\03"
+REGFIX:    Replace %PNP0700% ... "*PNP0700\04"
+REGFIX:    Replace %INT0800% ... "*INT0800\05"
+REGFIX:    Replace %PNP0C01% ... "*PNP0C01\06"
+REGFIX:    Replace %PNP0C04% ... "*PNP0C04\07"
+REGFIX:    Replace %PNP0000% ... "*PNP0000\08"
+REGFIX:    Replace %PNP0100% ... "*PNP0100\09"
+REGFIX:    Replace %PNP0200% ... "*PNP0200\0A"
+REGFIX:    Replace %PNP0800% ... "*PNP0800\0B"
+REGFIX:    Replace %PNP0B00% ... "*PNP0B00\0C"
+REGFIX:    Replace %PNP0303% ... "*PNP0303\0D"
+REGFIX:    Replace %PNP0F13% ... "*PNP0F13\0E"
+REGFIX:    Replace %PNP0A03% ... "*PNP0A03\0F"
+REGFIX:    Replace %PNP0C02% ... "*PNP0C02\10"
+REGFIX:    Replace %PNP0C02% ... "*PNP0C02\11"
+REGFIX:    Replace %PNP0401% ... "*PNP0401\00"
+REGFIX:    Replace %PNP0501% ... "*PNP0501\03"
+REGFIX:    Replace %PNP0700% ... "*PNP0700\04"
+REGFIX:    Replace %INT0800% ... "*INT0800\05"
+REGFIX:    Replace %PNP0C01% ... "*PNP0C01\06"
+REGFIX:    Replace %PNP0C04% ... "*PNP0C04\07"
+REGFIX:    Replace %PNP0000% ... "*PNP0000\08"
+REGFIX:    Replace %PNP0100% ... "*PNP0100\09"
+REGFIX:    Replace %PNP0200% ... "*PNP0200\0A"
+REGFIX:    Replace %PNP0800% ... "*PNP0800\0B"
+REGFIX:    Replace %PNP0B00% ... "*PNP0B00\0C"
+REGFIX:    Replace %PNP0303% ... "*PNP0303\0D"
+REGFIX:    Replace %PNP0F13% ... "*PNP0F13\0E"
+REGFIX:    Replace %PNP0A03% ... "*PNP0A03\0F"
+REGFIX:    Replace %PNP0C02% ... "*PNP0C02\10"
+REGFIX:    Replace %PNP0C02% ... "*PNP0C02\11"
+REGFIX: Importing new values...
+REGFIX: Looking for device file... "80861229.REG"
+REGFIX: Looking for device file... "80867124.REG"
+REGFIX: Looking for device file... "80867125.REG"
+REGFIX: Looking for device file... "80862418.REG"
+REGFIX: Looking for device file... "80862410.REG"
+REGFIX: Batch file processing completed.
+******************************************************
+FBI StartUp at ->Wed Sep 05 23:46:26 2001<- aka ->999751586
+This should be the first start of FBI - 1.20.14
+SM v1.04.2
+Log started on Wed Sep 05 23:46:26 2001
+[23:46:26.600] attempting to merge autotest.ini file defined as ->A:\AUTOTEST.INI
+[23:46:26.660] FBI is starting in Retail mode
+[23:46:26.660] Loading Internal FBI Toolbox functions
+[23:46:26.660] LoadFBIInt15 - FBIInt15.VxD load Successful
+[23:46:26.710] LoadFBIKB_95 - FBIKB_95.VxD load Successful
+[23:46:26.710]  OpenFBIKB_95() - FBIKB_95.VxD driver loaded successfully
+[23:46:26.710] Loading Internal FBI Script functions
+[23:46:26.770] FBIDATE.DLL did not load
+[23:46:26.770] Done Loading FBI Environment
+[23:46:28.910] No Startup Delay defined
+[23:46:28.910] Task Manager thread is starting, current section is ->
+[23:46:28.910] No delay defined...
+[23:46:28.910] Task Manager thread is starting, current section is ->FBI.Init.General
+[23:46:28.910] No delay defined...
+[23:46:28.960] Processing ->CMD1 ->CheckMachine
+[23:46:29.020]  OpenFBIInt15() - FBIInt15.VxD driver loaded successfully
+ 
+[23:46:29.020] Processing ->CMD2 ->SetVar(FbiData,ProcessState,InMiniWindows)
+[23:46:29.020] Processing ->CMD3 ->CheckForOsTransit
+[23:46:29.020] Processing ->CMD4 ->SetVar(FBITB.GeneralTools,SectionToClean,Description)
+[23:46:29.020] Processing ->CMD5 ->CleanCIASection
+[23:46:29.020] Processing ->CMD6 ->SetVar(FBITB.GeneralTools,SectionToClean,Configuration)
+[23:46:29.020] Processing ->CMD7 ->CleanCIASection
+[23:46:29.020] Processing ->CMD8 ->SetVar(FBITB.GeneralTools,SectionToClean,UIA)
+[23:46:29.020] Processing ->CMD9 ->CleanCIASection
+[23:46:29.020] Processing ->CMD10 ->DetectInstallationProcess
+[23:46:29.020] Processing ->CMD11 ->DefineNextInitSection
+[23:46:29.070] Task Manager thread is starting, current section is ->FactoryPreinstall.Initialize
+[23:46:29.070] No delay defined...
+[23:46:29.070] Processing ->CMD12 ->ReadUIAData
+[23:46:29.130] Processing ->CMD13 ->SetVar(UIA,ErrorCode,945)
+[23:46:29.130] Processing ->CMD14 ->WriteUIAErrorCode
+[23:46:29.180] Processing ->CMD15 ->DetectOsImage
+[23:46:29.240] Processing ->CMD16 ->ValidateOsCVAFiles
+[23:46:29.240] Processing ->CMD17 ->SetupAutomation
+[23:46:29.240]  ...This requires ReadUIAData to have been ran.
+[23:46:29.240]  ...This requires DetectOSImage to have been ran.
+[23:46:29.240] Processing ->CMD18 ->SetupFactoryAutomation
+[23:46:29.290]  ...this requires UIADump to have been ran.
+[23:46:29.290] Processing ->CMD19 ->SetupOsSelection
+[23:46:29.290] Processing ->CMD20 ->SetDefaultOsSelection
+[23:46:29.290] RECOVERABLE ERROR-=-SF_SetDefaultOsSelection( )...cannot set default OS Image selection yet
+[23:46:29.290] RECOVERABLE ERROR-=-Could not determine good values for: Description:CompaqLanguage, Description:OSSelection  UIA:DashRegion
+[23:46:29.290] Processing ->CMD21 ->ShowListSelect
+[23:47:26.030] Processing ->CMD22 ->SetupAfterOsSelection
+[23:47:26.030] Processing ->CMD23 ->SetDefaultLocaleValues
+[23:47:26.030] Processing ->CMD24 ->SetApmToInfinite
+[23:47:26.030] Processing ->CMD25 ->DisableRemovableMedia
+[23:47:26.030] Processing ->CMD26 ->ShowActivity
+[23:47:27.130] Processing ->CMD27 ->StartRealTimeClock
+[23:47:27.130] Processing ->CMD28 ->WriteLangCodeToCmos
+[23:47:27.130] Processing ->CMD29 ->TransitNewMiniWindows1
+[23:47:27.130] Processing ->CMD30 ->TransitNewMiniWindows2
+[23:47:27.130] Processing ->CMD31 ->DefineNextProcessSection
+[23:47:27.180] Task Manager thread is starting, current section is ->FactoryPreinstall.WIN98.GLOBAL
+[23:47:27.180] No delay defined...
+[23:47:27.180] Processing ->CMD32 ->SetVar(FBITB.FilesTools,SourceDir,C:\Global)
+[23:47:27.180] Processing ->CMD33 ->SetVar(FBITB.FilesTools,DestDir,C:)
+[23:47:27.180] Processing ->CMD34 ->TransitDir
+[23:47:27.570] Processing ->CMD35 ->TransitLocaleDir
+[23:47:27.570] WARNING-=-MoveEM( ) did failed, Dir C:\US not found
+[23:47:27.570] WARNING-=-GetFileAttributes(C:\US) returned 2, The system cannot find the file specified.  
+[23:47:27.570] Processing ->CMD36 ->SetVar(FBITB.FilesTools,SourceDir,C:\Win40)
+[23:47:27.570] Processing ->CMD37 ->SetVar(FBITB.FilesTools,DestDir,C:)
+[23:47:27.570] Processing ->CMD38 ->TransitDir
+[23:47:28.670] Processing ->CMD39 ->SetVar(FBITB.FilesTools,SourceDir,C:\Win98)
+[23:47:28.670] Processing ->CMD40 ->SetVar(FBITB.FilesTools,DestDir,C:)
+[23:47:28.670] Processing ->CMD41 ->TransitDir
+[23:47:29.270] Processing ->CMD42 ->InitProgressBar
+[23:47:29.330] WARNING-=-CountBTOFiles() - Invalid File Handle - c:\appl.zip\ie_more2\*.*
+[23:47:29.330] WARNING-=- FindFirstFile(c:\appl.zip\ie_more2\*.*) 3-The system cannot find the path specified.  
+[23:47:29.330] WARNING-=-CountBTOFiles() - Invalid File Handle - c:\appl.zip\install2\*.*
+[23:47:29.330] WARNING-=- FindFirstFile(c:\appl.zip\install2\*.*) 3-The system cannot find the path specified.  
+[23:47:29.330] Processing ->CMD43 ->HideActivity
+[23:47:29.330] Processing ->CMD44 ->ShowActivity
+[23:47:30.420] Processing ->CMD45 ->SetVar(FbiData,ProcessState,PreOsScripts)
+[23:47:30.420] Processing ->CMD46 ->c:\appl.zip\preos\FishRstr.BTO
+[23:47:30.420] WARNING-=-Path not found - c:\appl.zip\preos\fishrstr.bto
+[23:47:30.420] WARNING-=- ProcessBTO(c:\appl.zip\preos\fishrstr.bto) 2-The system cannot find the file specified.  
+[23:47:30.420] Processing ->CMD47 ->c:\appl.zip\preos.pi\w98cfg.bto
+[23:47:30.420] c:\appl.zip\preos.pi\w98cfg.bto
+[23:47:30.480] @REM =======================================================================
+[23:47:30.480] @REM This file kicks off Engineering tweaks for Windows 98 under CIA2
+[23:47:30.480] @REM -----------------------------------------------------------------------
+[23:47:30.480] @REM Copyright 1998, Compaq Computer Corporation.
+[23:47:30.480] @REM =======================================================================
+[23:47:30.480] @REM -----------------------------------------------------------------------
+[23:47:30.480] @REM SKIPPED BY REDWOOD
+[23:47:30.480] @REM
+[23:47:30.480] @REM SI_Enhan.mst: Copy files needed for Super Image restoration
+[23:47:30.480] @REM -----------------------------------------------------------------------
+[23:47:30.480] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\SI_Enhan.mst
+[23:47:30.530]        ###SWITCH LOG: Wed Sep 05 23:47:30 2001
+[23:47:30.530]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:30.530] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 14:   CONST CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 16:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", CIA_INI$)
+Line 17:   OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 18:   INFO_RTR$ = OSIMAGEPATH$ + "\INFO.RTR"
+Line 20:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 21:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 22:  
+Line 23:     SetLogFileName "c:\restore.log"
+Line 24:     XLogBanner "Skip SI_Enh.MST"
+Line 25:     Goto AllDone    
+Line 26:   END IF
+Line 31:     CONST LOG_TEXT  = "SI_Enhan.mst: "
+Line 32:     LOG_FILE$ = "C:\SYSTEM.SAV\UTIL\INSTALL.LOG"
+Line 34:     XSetLogFileName LOG_FILE$
+Line 35:     XLogBanner LOG_TEXT
+Line 40:   IF FileExists(INFO_RTR$) THEN
+Line 41:     Log "  Copy files needed for Super Image restoration"
+Line 42:     WIN_PATH$ = OSIMAGEPATH$ + "\WINDOWS"
+Line 43:     OLDLANGSPEC$ = "\APPL.ZIP\SCRIPTS\RTR\LANG\LANGSPEC." + CPQLANG$
+Line 44:     NEWLANGSPEC$ = WIN_PATH$ + "\LANGSPEC.BAT"
+Line 45:     IF FileExists(OLDLANGSPEC$) THEN
+Line 46:        CopyFile ( OLDLANGSPEC$, NEWLANGSPEC$ )
+Line 47:     END IF
+Line 48:     CopyFile ( "\APPL.ZIP\SCRIPTS\RTR\NOLOGON.REG", WIN_PATH$ )
+Line 49:     CopyFile ( "\APPL.ZIP\SCRIPTS\RTR\NOSHOW.REG", WIN_PATH$ )
+Line 50:     CopyFile ( "\APPL.ZIP\SCRIPTS\RTR\WINSTART.BAT", WIN_PATH$ )
+Line 52:    
+Line 53:    
+Line 54:    
+Line 55:    
+Line 56:     Root_CVADir$ = "C:\COMPAQ\SW_VER\NUL"
+Line 57:     IF FileExists( Root_CVADir$ ) THEN
+Line 58:        SrcDIR$ = "C:\COMPAQ\SW_VER\*.CVA"
+Line 59:        DstDIR$ = OSIMAGEPATH$ + "\COMPAQ\SW_VER"
+Line 60:        CopyFile(SrcDIR$, DstDIR$,0,1,"a")
+Line 61:         Log "  Move c:\compaq\sw_ver\*.cva into " + OSImagePath$ + "\compaq\sw_ver"
+Line 62:     END IF
+Line 64:   ELSE
+Line 65:     Log "  Skipped for non Super Image Restore."
+Line 67:   END IF
+Line 69: AllDone:
+Line 70: END
+ 
+****** SI_Enhan.mst:  ******
+ 
+  Copy files needed for Super Image restoration
+  Move c:\compaq\sw_ver\*.cva into c:\us98\compaq\sw_ver
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\SI_Enhan.mst
+[23:47:35.260] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:35.260]        ###SWITCH LOG: Wed Sep 05 23:47:35 2001
+[23:47:35.260]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:35.260] @REM -----------------------------------------------------------------------
+[23:47:35.260] @REM SKIPPED BY REDWOOD
+[23:47:35.260] @REM
+[23:47:35.260] @REM Updates LOCALE.INF, MULTILNG.INF, or OLANG.INF with the desired keyboard
+[23:47:35.260] @REM  and regional defaults under the OS.  1/25/99.
+[23:47:35.260] @REM -----------------------------------------------------------------------
+[23:47:35.260] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\DEF_LCKB.MST
+[23:47:35.260]        ###SWITCH LOG: Wed Sep 05 23:47:35 2001
+[23:47:35.260]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:35.260] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 13:   CONST LOCALE_INI$ = "C:\SYSTEM.SAV\UTIL\LOC98.INI"
+Line 14:   CONST CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 16:   OS_SELECTED$ = GetProfileString( "DESCRIPTION", "OsSelection", "Win98", CIA_INI$)
+Line 17:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", CIA_INI$)
+Line 18:   OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 19:   OPK$=GetProfileString( "CONFIGURATION", "OPK", "",CIA_INI$)
+Line 21:   quotes$   = chr$(34)
+Line 23:   LOCALE_INF$ = OSIMAGEPATH$ + "\WINDOWS\INF\LOCALE.INF"
+Line 24:   MULTILNG_INF$ = OSIMAGEPATH$ + "\WINDOWS\INF\MULTILNG.INF"
+Line 26:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 27:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 28:  
+Line 29:     SetLogFileName "c:\restore.log"
+Line 30:     XLogBanner "Skip Def_LCKB.MST"
+Line 31:     Goto AllDone    
+Line 32:   END IF
+Line 37:     CONST LOG_TEXT  = "Win98 Default Country & Keyboard Updates"
+Line 38:     CONST LOG_PATH$ = "\system.sav\util\"
+Line 39:     LOG_FILE$ = LOG_PATH$ + "install.log"
+Line 40:     CHECK_POINT$ = LOG_TEXT + " Check Point "
+Line 42:     XSetLogFileName LOG_FILE$
+Line 43:     XLogBanner LOG_TEXT
+Line 48:   COUNTRY$=GetProfileString( "DESCRIPTION", "Country", "", CIA_INI$)
+Line 49:   KEYBOARD$=GetProfileString( "DESCRIPTION", "Keyboard", "", CIA_INI$)
+Line 54:   LOCALE_SECT$ = OS_SELECTED$ + ".Country." + COUNTRY$
+Line 55:   KEYBOARD_SECT$ = OS_SELECTED$ + ".Keyboard." + KEYBOARD$
+Line 57:   DEF_LOCALE$=GetProfileString( LOCALE_SECT$, "Locale", "", LOCALE_INI$)
+Line 58:   Log "Def locale=" + DEF_LOCALE$
+Line 60:   DEF_KEYBOARD$=GetProfileString( KEYBOARD_SECT$, "Default_Keyboard", "", LOCALE_INI$)
+Line 61:   Log "Def keyboard=" + DEF_KEYBOARD$
+Line 66:     if Len( DEF_LOCALE$ ) > 0 then
+Line 67:       IF (StrCmp(CPQLANG$,"FR")=0) AND (StrCmp(DEF_LOCALE$,"L0409")=0) THEN
+Line 68:        
+Line 69:        
+Line 70:       ELSE
+Line 71:          WriteProfileString( "Strings", "Default_Locale", quotes$ + DEF_LOCALE$ + quotes$, LOCALE_INF$)
+Line 72:          RESOURCE$ = "0000" + MID$(DEF_LOCALE$,2,4)
+Line 73:          WriteProfileString( "Strings", "Resource_Locale", quotes$ + RESOURCE$ + quotes$, LOCALE_INF$)
+Line 74:       END IF
+Line 75:     end if
+Line 77:     if Len( DEF_KEYBOARD$ ) > 0 then
+Line 78:       WriteProfileString( "Strings", "Default_Keyboard", quotes$ + DEF_KEYBOARD$ + quotes$, MULTILNG_INF$)
+Line 79:     end if
+Line 81: AllDone:
+Line 82: END
+ 
+****** Win98 Default Country & Keyboard Updates ******
+ 
+Def locale=
+Def keyboard=
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\DEF_LCKB.MST
+[23:47:39.160] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:39.160]        ###SWITCH LOG: Wed Sep 05 23:47:39 2001
+[23:47:39.160]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:39.160] @REM -----------------------------------------------------------------------
+[23:47:39.160] @REM
+[23:47:39.160] @REM POSITION COMPAQ INF FILES AHEAD OF THE MS INF'S (PI and RW)
+[23:47:39.160] @REM -----------------------------------------------------------------------
+[23:47:39.160] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\BLDINF.MST
+[23:47:39.210]        ###SWITCH LOG: Wed Sep 05 23:47:39 2001
+[23:47:39.210]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:39.210] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 11:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 13:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 14:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 15:     LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "C:\RESTORE.LOG", CIA_INI$)
+Line 16:     OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "c:\windows\options\cabs", CIA_INI$)
+Line 18:     SetLogFileName LogFile$
+Line 19:     Log " "
+Line 20:     Log "    Start: WinFeed Bldinf.mst"
+Line 22:     DIR_1$ = "c:\windows\inf.cpq\nul"
+Line 23:     IF FileExists(DIR_1$) THEN
+Line 24:        SrcDIR$ = "c:\windows\inf.cpq"
+Line 25:        DstDIR$ = "c:\windows\inf"    
+Line 26:         GoSub CopyINFs
+Line 27:        Log "     Copied c:\windows\inf.cpq to c:\windows\inf"
+Line 29:        DstDIR$ = OS_SRC$
+Line 30:        GoSub CopyINFs
+Line 31:        Log "     Copied c:\windows\inf.cpq to " + OS_SRC$
+Line 33:        Rmdir "C:\windows\inf.cpq"
+Line 34:     END IF
+Line 36:   ELSE
+Line 37:     OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 38:     BuildINF$ = "C:\COMMAND.COM /C C:\APPL.ZIP\SCRIPTS\W98ETOOL\BLDINF.BAT " + OSIMAGEPATH$
+Line 39:     Run BuildINF$
+Line 41:   END IF
+Line 43: END
+Line 45: CopyINFs:
+Line 46:     CopyFile(SrcDIR$, DstDIR$,0,1,"a")
+Line 47:     Log "   Copy " + SrcDIR$ + " to " + DstDIR$
+Line 48: RETURN
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\BLDINF.MST
+[23:47:43.060] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:43.060]        ###SWITCH LOG: Wed Sep 05 23:47:43 2001
+[23:47:43.060]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:43.110] @REM -----------------------------------------------------------------------
+[23:47:43.110] @REM Update CONFIG.SYS file (PI and RW)
+[23:47:43.110] @REM -----------------------------------------------------------------------
+[23:47:43.110] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\CONFIG.MST
+[23:47:43.110]        ###SWITCH LOG: Wed Sep 05 23:47:43 2001
+[23:47:43.110]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:43.110] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 15:     CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 16:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 17:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "",CIA_INI$)
+Line 18:     OSR_LEVEL$ = GetProfileString( "DESCRIPTION", "WIN98", "",CIA_INI$)
+Line 19:     OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 20:     LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "C:\RESTORE.LOG", CIA_INI$)
+Line 22:     INFO_RTR$ = OSIMAGEPATH$ + "\INFO.RTR"
+Line 24:     IF FileExists(INFO_RTR$) THEN
+Line 25:        Goto AllDone
+Line 26:     END IF
+Line 31:     IF (StrCmpi(OSR_LEVEL$,"OSR1")=0) OR (StrCmpi(OSR_LEVEL$,"SP1")=0) THEN
+Line 32:       Oldline$    = "[Setup]"
+Line 33:       PRODUCT_KEY_VALUE$="#####-#####-#####-#####-#####"
+Line 34:       QOUTE_PRODUCT_KEY_VALUE$ = """" + PRODUCT_KEY_VALUE$ + """"
+Line 35:       PRODUCT_KEY$ = "ProductKey="
+Line 36:       Newline$    = PRODUCT_KEY$ + QOUTE_PRODUCT_KEY_VALUE$
+Line 38:       IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 39:       MSBATCH_INF$   = "C:\WINDOWS\OPTIONS\CABS\MSBATCH.INF"
+Line 40:         LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "C:\RESTORE.LOG", CIA_INI$)
+Line 41:         If FileExists(MSBATCH_INF$) THEN
+Line 42:           EditAppendLine (Oldline$,Newline$,MSBATCH_INF$)
+Line 43:           Log "     Adding " + Newline$
+Line 44:         END IF
+Line 45:       END IF
+Line 46:     END IF
+Line 52:     CONST LOG_TEXT  = "Win98 Config.sys File Updates"
+Line 54:     IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 55:         LOG_FILE$ = LogFile$
+Line 56:         XSetLogFileName LOG_FILE$
+Line 57:         XLogBanner LOG_TEXT
+Line 59:        CONFIGSYS$ = "\CONFIG.SYS"
+Line 61:         EditCaseSensitive(0)
+Line 62:        
+Line 63:        IF StrCmpi(CPQLANG$,"JP")=0 THEN
+Line 64:                Log "Replace RAM with NOEMS in config.sys for JP."
+Line 65:                EditReplaceString("RAM","NOEMS",CONFIGSYS$)
+Line 66:         ELSEIF not ( StrCmpi(CPQLANG$,"KR")=0 ) THEN
+Line 67:                Log "Append loading EMM386 to end of config.sys"
+Line 68:                CONFIGSYS$ = "\CONFIG.SYS"
+Line 69:                NEW_LINE1$  = "HIMEM.SYS"
+Line 70:                NEW_LINE2$  = "DEVICE=EMM386.EXE NOEMS"
+Line 71:              
+Line 72:                EditAppendLine( NEW_LINE1$, NEW_LINE2$, CONFIGSYS$)
+Line 73:              
+Line 74:        END IF
+Line 76:     ELSE
+Line 77:         LOG_FILE$ = "\System.sav\util\install.log"
+Line 78:         XSetLogFileName LOG_FILE$
+Line 79:         XLogBanner LOG_TEXT
+Line 81:        CONFIGSYS$ = OSIMAGEPATH$ + "\CONFIG.SYS"
+Line 82:        NEW_LINE1$  = "DEVICE=C:\WINDOWS\HIMEM.SYS"
+Line 83:        NEW_LINE2$  = "DEVICE=C:\WINDOWS\EMM386.EXE NOEMS"
+Line 84:        NEW_LINE3$  = "DOS=HIGH, UMB"
+Line 85:        EditInsertLine( 1, NEW_LINE1$, CONFIGSYS$)
+Line 86:        EditAppendLine( NEW_LINE1$, NEW_LINE2$, CONFIGSYS$)
+Line 87:        EditAppendLine( NEW_LINE2$, NEW_LINE3$, CONFIGSYS$)
+Line 89:     END IF
+Line 90:     Log LOG_TEXT$ + " :Complete!!"
+Line 92: AllDone:
+Line 93: END
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\CONFIG.MST
+[23:47:46.240] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:46.240]        ###SWITCH LOG: Wed Sep 05 23:47:46 2001
+[23:47:46.240]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:46.240] @REM -----------------------------------------------------------------------
+[23:47:46.240] @REM Perform Registry edits and INF edits to automate install & tweak Win98
+[23:47:46.240] @REM -----------------------------------------------------------------------
+[23:47:46.240] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\98TWEAK.MST
+[23:47:46.300]        ###SWITCH LOG: Wed Sep 05 23:47:46 2001
+[23:47:46.300]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:46.300] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 41:     CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 42:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 43:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "",CIA_INI$)
+Line 44:     ALIASLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguageAlias", "", CIA_INI$)
+Line 45:     OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 46:     BUILD_RTR$=GetProfileString( "CONFIGURATION", "BuildRTR", "FALSE",CIA_INI$)
+Line 47:     OSR_LEVEL$ = GetProfileString( "DESCRIPTION", "WIN98", "OSR0",CIA_INI$)
+Line 48:     EditCaseSensitive(0)
+Line 50:     IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 51:       Goto AllDone    
+Line 52:     END IF
+Line 53:  
+Line 58:   AUTOEXEC$ = OSIMAGEPATH$ + "\AUTOEXEC.BAT"
+Line 59:   INFO_RTR$ = OSIMAGEPATH$ + "\INFO.RTR"
+Line 63:   CONST LOG_TEXT  = "Win98 Automation Updates: 98Tweak.mst"
+Line 64:   CONST LOG_PATH$ = "\system.sav\util\"
+Line 65:   LOG_FILE$ = LOG_PATH$ + "INSTALL.LOG"
+Line 66:   CHECK_POINT$ = LOG_TEXT + " Check Point "
+Line 68:   XSetLogFileName LOG_FILE$
+Line 69:   XLogBanner LOG_TEXT
+Line 82:   GETSERIALNUMBER$ = "C:\APPL.ZIP\TOOLS\NAMEIT.EXE -R:C:\SYSTEM.SAV\SERNUM.REG"
+Line 83:   Run GETSERIALNUMBER$
+Line 85:   TWEAK_REG$    = "C:\APPL.ZIP\SCRIPTS\W98ETOOL\98TWEAK.REG"
+Line 87:   IRQ_FIX$      = "C:\APPL.ZIP\SCRIPTS\W98ETOOL\IRQFIX.REG"
+Line 89:   WELCOME_REMOVE$ = "CALL C:\APPL.ZIP\TOOLS\WELCM_RM.BAT"
+Line 90:   DISABLE_FASTSD$   = "C:\WINDOWS\REGEDIT.EXE /L:C:\WINDOWS\SYSTEM.DAT C:\APPL.ZIP\SCRIPTS\W98ETOOL\DFASTSD.REG"
+Line 91:   IF (StrCmpi(CPQLANG$,"CH")=0) OR (StrCmp(CPQLANG$,"TH")=0) OR (StrCmp(CPQLANG$,"KR")=0) THEN
+Line 92:    
+Line 93:      LINE_KB_ENB$  = "C:\Windows\REGEDIT.EXE /L:\WINDOWS\SYSTEM.DAT /R:\WINDOWS\USER.DAT \APPL.ZIP\TOOLS\KB_ENB.REG"
+Line 94:      log "Enable keyboard indicator on taskbar for " + CPQLANG$
+Line 95:   ELSE
+Line 96:      LINE_KB_ENB$  = "REM No enable KB indicator"
+Line 97:   END IF
+Line 98:   ADD_ECHO_OFF$        ="@echo OFF"
+Line 99:   DISABLE_DAYLITSAV$ = "C:\WINDOWS\REGEDIT.EXE /L:C:\WINDOWS\SYSTEM.DAT C:\APPL.ZIP\SCRIPTS\W98ETOOL\DAYLITD.REG"
+Line 102:   NEWLINE_2$    = "C:\WINDOWS\REGEDIT.EXE /L:C:\WINDOWS\SYSTEM.DAT C:\SYSTEM.SAV\SERNUM.REG"
+Line 103:   NEWLINE_3$    = "DEL C:\SYSTEM.SAV\SERNUM.REG"
+Line 104:   NEWLINE_4$    = "C:\WINDOWS\REGEDIT.EXE /L:C:\WINDOWS\SYSTEM.DAT " + TWEAK_REG$
+Line 110:   NEWLINE_6$    = "COPY C:\SYSTEM.SAV\AUTOEXEC.CPQ C:\AUTOEXEC.BAT"
+Line 111:   NEWLINE_7$    = "COPY C:\SYSTEM.SAV\AUTOEXEC.2 C:\AUTOEXEC.BAT"
+Line 113:  
+Line 114:  
+Line 115:  
+Line 116:   IF StrCmp(OSR_LEVEL$,"OSR0")=0 THEN
+Line 117:     NEWLINE_8$    = "C:\WINDOWS\REGEDIT.EXE /L:C:\WINDOWS\SYSTEM.DAT " + IRQ_FIX$
+Line 118:   ELSEIF StrCmp(OSR_LEVEL$,"OSR1")=0 THEN
+Line 119:     NEWLINE_8$    = "REM No change SetupFlags for W98 SE."
+Line 120:   END IF
+Line 122:   NEWAUTO$  = "C:\SYSTEM.SAV\AUTOEXEC.2"  
+Line 123:   DELAUTO2$ = "del C:\SYSTEM.SAV\AUTOEXEC.2"
+Line 124:   FINISHFILE$   = "C:\SYSTEM.SAV\FINISH.BAT"
+Line 125:   DELFINISH$    = "DEL " + FINISHFILE$
+Line 127:   EditDeleteLine( "echo OFF", AUTOEXEC$ )
+Line 128:   EditAppendLine(0, ADD_ECHO_OFF$, AUTOEXEC$)
+Line 129:   CopyFile( AUTOEXEC$, "C:\SYSTEM.SAV\AUTOEXEC.CPQ")
+Line 130:   CopyFile( AUTOEXEC$, "C:\SYSTEM.SAV\AUTOEXEC.2")
+Line 132:   EditAppendLine("", ADD_ECHO_OFF$, FINISHFILE$)
+Line 134:   IF FileExists (INFO_RTR$) THEN
+Line 135:      
+Line 136:      
+Line 137:      
+Line 138:      
+Line 139:        IF (StrCmp(CPQLANG$,"GK")=0) OR (StrCmp(ALIASLANG$,"EG")=0) THEN
+Line 140:            LOCALE_INF$ = OSIMAGEPATH$ + "\WINDOWS\INF\LOCALE.INF"
+Line 141:            OLD_STR$ = "win.ini,windows,""run=langshow.exe,lbut.exe"",""run="""
+Line 142:            NEW_STR$ = ";win.ini,windows,""run=langshow.exe,lbut.exe"",""run="""
+Line 143:          EditInsertString( OLD_STR$, NEW_STR$, LOCALE_INF$ )
+Line 144:        END IF
+Line 146:      
+Line 147:      
+Line 148:      
+Line 149:        Log "Remove old memory configuration for SuperImage."
+Line 150:        MEMORY_RMV$ = "CALL C:\APPL.ZIP\TOOLS\CLEANMEM.BAT"
+Line 151:        EditAppendLine(1, MEMORY_RMV$, AUTOEXEC$)
+Line 153:        EditAppendLine(100, WELCOME_REMOVE$, AUTOEXEC$)
+Line 154:        EditAppendLine(WELCOME_REMOVE$, LINE_KB_ENB$, AUTOEXEC$)
+Line 155:        EditAppendLine(LINE_KB_ENB$, NEWLINE_2$, AUTOEXEC$)
+Line 156:        EditAppendLine(NEWLINE_2$, NEWLINE_3$, AUTOEXEC$)
+Line 157:        EditAppendLine(NEWLINE_3$, NEWLINE_4$, AUTOEXEC$)
+Line 158:        EditAppendLine(NEWLINE_4$, FINISHFILE$, AUTOEXEC$)
+Line 160:        EditAppendLine(100, NEWLINE_6$, FINISHFILE$)
+Line 161:        EditAppendLine(NEWLINE_6$, DELAUTO2$, FINISHFILE$)
+Line 163:        
+Line 164:        EditAppendLine(1, DISABLE_DAYLITSAV$, AUTOEXEC$)
+Line 166:        log "Editted " + AUTOEXEC$
+Line 168:   ELSE
+Line 170:        EditAppendLine(100, WELCOME_REMOVE$, AUTOEXEC$)
+Line 172:        EditAppendLine(WELCOME_REMOVE$, LINE_KB_ENB$, AUTOEXEC$)
+Line 173:        EditAppendLine(LINE_KB_ENB$, NEWLINE_4$, AUTOEXEC$)
+Line 174:        EditAppendLine(NEWLINE_4$, FINISHFILE$, AUTOEXEC$)
+Line 176:        EditAppendLine(100, NEWLINE_7$, FINISHFILE$)
+Line 177:        EditAppendLine(NEWLINE_7$, DELAUTO2$, FINISHFILE$)
+Line 179:        log "Editted " + AUTOEXEC$
+Line 181:        EditAppendLine(100, DELFINISH$, NEWAUTO$)    
+Line 182:        EditAppendLine(100, NEWLINE_2$, NEWAUTO$)    
+Line 183:        EditAppendLine(NEWLINE_2$, NEWLINE_3$, NEWAUTO$)  
+Line 184:        EditAppendLine(NEWLINE_3$, NEWLINE_4$, NEWAUTO$)
+Line 185:        EditAppendLine(NEWLINE_4$, NEWLINE_8$, NEWAUTO$)
+Line 186:        EditAppendLine(NEWLINE_8$, NEWLINE_6$, NEWAUTO$)
+Line 188:        Log "Editted " + NEWAUTO$
+Line 190:   END IF
+Line 196:   CONST SKIPLIST = "SkipList=#OEMSkipFactory"
+Line 197:   CONST SKIPSECTION = "[Det.Options]"
+Line 198:   FILE_MSDET$ = OSIMAGEPATH$ + "\Windows\INF\MSDET.INF"
+Line 199:  
+Line 200:   EditAppendLine( SKIPSECTION, SKIPLIST, FILE_MSDET$)
+Line 201:   Log CHECK_POINT$ + " - Append " + FILE_MSDET$ + " file, " + SKIPSECTION + " section, with " + SKIPLIST
+Line 205:   Log LOG_TEXT$ + " Installation Complete!!"
+Line 207: Alldone:
+Line 209: END
+ 
+****** Win98 Automation Updates: 98Tweak.mst ******
+ 
+Remove old memory configuration for SuperImage.
+Editted c:\us98\AUTOEXEC.BAT
+Win98 Automation Updates: 98Tweak.mst Check Point  - Append c:\us98\Windows\INF\MSDET.INF file, [Det.Options] section, with SkipList=#OEMSkipFactory
+Win98 Automation Updates: 98Tweak.mst Installation Complete!!
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\98TWEAK.MST
+[23:47:53.270] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:53.270]        ###SWITCH LOG: Wed Sep 05 23:47:53 2001
+[23:47:53.270]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:53.270] @REM -----------------------------------------------------------------------
+[23:47:53.270] @REM Rename "\xx9x\cpq1999" to "\xx9x\Program Files"
+[23:47:53.270] @REM -----------------------------------------------------------------------
+[23:47:53.270] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\RENAME.MST
+[23:47:53.270]        ###SWITCH LOG: Wed Sep 05 23:47:53 2001
+[23:47:53.270]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:53.270] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 11:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 12:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", CIA_INI$)
+Line 13:   ALIASLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguageAlias", "", CIA_INI$)
+Line 14:   OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 15:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 16:   OEMAUDIT_INF$ = OSIMAGEPATH$ + "\WINDOWS\OPTIONS\OEMAUDIT.INF"
+Line 20:   IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 21:        GOTO AllDone
+Line 22:   END IF
+Line 24:   CPQ1999_nul$= OSIMAGEPATH$ + "\CPQ1999\nul"
+Line 25:   IF FileExists (CPQ1999_nul$) THEN
+Line 26:     CALL_RENAME$=  "\APPL.ZIP\TOOLS\RENAME.BAT " + OSIMAGEPATH$
+Line 27:     RUN CALL_RENAME$
+Line 28:   END IF
+Line 30: AllDone:
+Line 31: END
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\RENAME.MST
+[23:47:56.130] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:56.130]        ###SWITCH LOG: Wed Sep 05 23:47:56 2001
+[23:47:56.130]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:56.130] @REM -----------------------------------------------------------------------
+[23:47:56.130] @REM run 98Diag2.mst to delete base.log LM 10/11/99
+[23:47:56.130] @REM -----------------------------------------------------------------------
+[23:47:56.130] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\98DIAG2.MST
+[23:47:56.130]        ###SWITCH LOG: Wed Sep 05 23:47:56 2001
+[23:47:56.130]        ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:56.130] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 5:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 6:   CONST LOG_PATH$ = "C:\system.sav\"
+Line 7:   LOG_FILE$ = LOG_PATH$ + "Diag.log"
+Line 8:   OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 10:   XSetLogFileName LOG_FILE$
+Line 12:   INFO_RTR$ = OSIMAGEPATH$ + "\INFO.RTR"
+Line 14:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 15:   IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 16:      Goto AllDone
+Line 17:   END IF
+Line 18:  
+Line 19:   IF FileExists (INFO_RTR$) THEN
+Line 20:     DeleteFileIfExists OSIMAGEPATH$ + "\windows\cpqdiag\base.log"
+Line 21:      Log "remove c:\windows\cpqdiag\base.log from cpqdiag which was created when building SI Component"
+Line 22:   END IF
+Line 24: AllDone:
+Line 26: END
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\98DIAG2.MST
+[23:47:59.320] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:47:59.320]        ###SWITCH LOG: Wed Sep 05 23:47:59 2001
+[23:47:59.320]        ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:00.360] Processing ->CMD48 ->SetVar(FBIData,BTOName,C:\appl.zip\preos.pi)
+[23:48:00.360] Processing ->CMD49 ->ProcessBTOName
+[23:48:00.360] c:\appl.zip\preos.pi
+[23:48:00.360] WARNING-=- ProcessBTODir(c:\appl.zip\preos.pi) No Bto File to process
+[23:48:00.360] WARNING-=- ProcessBTODir(c:\appl.zip\preos.pi) No Bto File to process
+[23:48:00.360] Processing ->CMD50 ->SetVar(FBIData,BTOName,C:\appl.zip\preos)
+[23:48:00.360] Processing ->CMD51 ->ProcessBTOName
+[23:48:00.360] c:\appl.zip\preos
+[23:48:00.360] c:\appl.zip\preos\MKTPRE.BTO
+[23:48:00.360] @REM =======================================================================
+[23:48:00.410] @REM This file applies changes before Windows setup runs
+[23:48:00.410] @REM -----------------------------------------------------------------------
+[23:48:00.410] @REM Copyright 1996, Compaq Computer Corporation.
+[23:48:00.410] @REM =======================================================================
+[23:48:00.410] C:\APPL.ZIP\TOOLS\DETECT.EXE
+[23:48:02.010] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\BRAND\MKTPRE.MST
+[23:48:02.010]            ###SWITCH LOG: Wed Sep 05 23:48:02 2001
+[23:48:02.010]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:02.010] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 2:     FILE_NAME$ = "MKTPRE.MST"
+Line 30:     TargetOS$=GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 32:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 34:     GOSUB INIT_SCRIPT
+Line 36:     IF (StrCmpi(TargetOS$,"WIN98")=0) THEN
+Line 37:        GOSUB INSTALL_LOGO_BRANDING
+Line 38:        GOSUB BRAND_MSBATCH
+Line 39:     END IF
+Line 41:    
+Line 42:    
+Line 43:     IF ( StrCmpi(TargetOS$,"WIN98")=0) OR (StrCmpi(TargetOS$,"WIN95")=0 AND (StrCmpi(UseRedwood$,"YES")<>0) ) THEN
+Line 44:        OSPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 45:        WINPATH$ = OSPATH$ + "\windows\"
+Line 46:        COPYFILE ("C:\APPL.ZIP\BRAND\psetup.bmp", WINPATH$ , 0, 1, "a")
+Line 47:        Log "     Updating " + WINPATH$ + "psetup.bmp"
+Line 48:        COPYFILE ("C:\APPL.ZIP\BRAND\Compaq.bmp", WINPATH$ , 0, 1, "a")
+Line 49:        Log "     Updating " + WINPATH$ + "compaq.bmp"
+Line 50:     END IF
+Line 52:     IF (StrCmpi(TargetOS$,"WIN95")=0) THEN
+Line 53:       WriteProfileString("Strings.JP","OldFavoriteDir","Compaq Computer Corporation ‚¨Š©‚ß‚Ì»²Ä","C:\APPL.ZIP\BRAND\OEMSTRS.INI")
+Line 54:       Log "     Updating -- C:\APPL.ZIP\BRAND\OEMSTRS.INI with the correct old favorites path for JP"
+Line 55:     END IF
+Line 58:  IF StrCmpi(TargetOS$,"NT40")=0 THEN
+Line 59:    OSImageType$ = GetProfileString( "Description", "OSImageType", "STR", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 60:    IF STRCMPI(OSImageType$,"QTR") <> 0 THEN
+Line 61:      GOSUB BRAND_WINNTSIF
+Line 62:    END IF
+Line 64:  END IF
+Line 66:     IF StrCmpi(TargetOS$,"WIN2000")=0 THEN
+Line 67:        GOSUB BRAND_WIN2K
+Line 68:     END IF
+Line 70:     XLogBanner FILE_NAME$
+Line 71:    
+Line 72: ALLDONE:
+Line 73: END
+Line 78: INIT_SCRIPT:
+Line 79:     EditCaseSensitive (0)
+Line 80:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 81:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 82:     BRAND_PATH$ = "C:\APPL.ZIP\BRAND"
+Line 84:     IF StrCmpi(TargetOS$,"NT40")=0 OR StrCmpi(TargetOS$,"WIN2000")=0 THEN
+Line 85:         WINDIR$ = "C:\WINNT"
+Line 86:        SYSDIR$ = WINDIR$ + "\SYSTEM32"
+Line 87:        MkDir WINDIR$
+Line 88:        MkDir SYSDIR$
+Line 89:     END IF
+Line 91:     IF StrCmpi(TargetOS$,"WIN95")=0 THEN
+Line 92:        PRETRN1$ = "C:\" + CPQLANG$ + "95"
+Line 93:        PRETRN$ = GetProfileString("Description","OSImagePath",PRETRN1$,"C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 94:        WINDIR$ = PRETRN$ + "\WINDOWS"
+Line 95:        SYSDIR$ = WINDIR$ + "\SYSTEM"
+Line 96:     END IF    
+Line 98:     IF StrCmpi(TargetOS$,"WIN98")=0 THEN
+Line 99:        PRETRN1$ = "C:\" + CPQLANG$ + "98"
+Line 100:       PRETRN$ = GetProfileString("Description","OSImagePath",PRETRN1$,"C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 101:       WINDIR$ = PRETRN$ + "\WINDOWS"
+Line 102:       SYSDIR$ = WINDIR$ + "\SYSTEM"
+Line 103:     END IF    
+Line 105:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 106:             OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", "C:\TOOLS\PREOS.INI")  
+Line 107:             LogFile$="C:\restore.log"
+Line 108:     ELSE
+Line 109:             if (StrCmpi(TargetOS$,"WIN98")=0) THEN
+Line 110:               OSPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 111:                 WINPATH$ = OSPATH$ + "\windows"
+Line 112:                 SETUPBMP$ = BRAND_PATH$ + "\Psetup.bmp"
+Line 114:                 COPYFILE (SETUPBMP$, WINPATH$ , 0, 1, "a")
+Line 115:             END IF
+Line 116:            
+Line 117:                
+Line 118:             OS_SRC$="C:\windows\options\cabs"
+Line 119:             LOGFILE$ = "C:\system.sav\pisetup.log"
+Line 120:     END IF
+Line 121:     SetLogFileName  LogFile$    
+Line 122:     XLogBanner FILE_NAME$
+Line 124: RETURN
+Line 130: INSTALL_LOGO_BRANDING:
+Line 131:   Log "  INSTALL_LOGO_BRANDING"
+Line 133:   LOGO$       = BRAND_PATH$ + "\LOGO.SYS"
+Line 134:  
+Line 135:   ROOTDIR$    = "C:\LOGO.SYS"
+Line 137:   Log "     Copying Splash"
+Line 138:   COPYFILE (LOGO$, ROOTDIR$, 0, 1, "a")
+Line 140: RETURN
+Line 147: GET_MARKETING_NAME:
+Line 148:   LOGFILE$ = "C:\system.sav\pisetup.log"
+Line 149:   SetLogFileName  LogFile$
+Line 151:   Log "  GET_MARKETING_NAME"
+Line 153:   BRAND_PATH$ = "C:\APPL.ZIP\BRAND"
+Line 154:   DESKPRO_TXT$ = "C:\SYSTEM.SAV\DESKPRO.TXT"
+Line 155:   DETECT_EXE$ = BRAND_PATH$ + "\DETECT.EXE"
+Line 156:    CMD1$ =  "command.com /c " + DETECT_EXE$  + " " + DESKPRO_TXT$
+Line 157:    Run CMD1$
+Line 158:    Log " Run [ " + CMD1$ + " ] "
+Line 160:    If FileExists("C:\SYSTEM.SAV\DESKPRO.TXT") THEN
+Line 161:       Log "C:\SYSTEM.SAV\DESKPRO.TXT exists!"
+Line 162:    ELSE
+Line 163:       Log "C:\SYSTEM.SAV\DESKPRO.TXT does not exist!"
+Line 164:    END IF
+Line 165:  
+Line 166:  
+Line 167:  
+Line 169: RETURN
+Line 175: BRAND_MSBATCH:
+Line 176:     Log "  BRAND_MSBATCH"
+Line 177:     MSBATCH_INF$ = OS_SRC$ + "\msbatch.inf"
+Line 179:    
+Line 180:     WriteProfileString( "Strings","KEY_DESKTOP","Control Panel\Desktop",MSBATCH_INF$)  
+Line 181:     WriteProfileString( "Strings","KEY_CURR_VER_SETUP","SOFTWARE\Microsoft\Windows\CurrentVersion\Setup",MSBATCH_INF$)  
+Line 183:    
+Line 184:    
+Line 185:     CMD1$ = "HKCU,KEY_DESKTOP,""Wallpaper"",,""C:\WINDOWS\CPQ640.BMP"""
+Line 186:     i = EditAppendLine("[CPQ.SetupDesktop]",CMD1$,MSBATCH_INF$)  
+Line 187:     IF i = 0 THEN
+Line 188:         EditInsertLine(1000,"[CPQ.SetupDesktop]",MSBATCH_INF$)
+Line 189:         EditAppendLine("[CPQ.SetupDesktop]",CMD1$,MSBATCH_INF$)          
+Line 190:     END IF
+Line 191:    
+Line 192:    
+Line 193:     CMD1$ = "HKLM,KEY_CURR_VER_SETUP,""Wallpaper"",,""C:\WINDOWS\CPQ640.BMP"""
+Line 194:     EditAppendLine("[CPQ.SetupDesktop]",CMD1$,MSBATCH_INF$)  
+Line 196:     Log "     Updated " + MSBATCH_INF$ + " with Wallpaper Keys"  
+Line 197:    
+Line 198:    
+Line 199: RETURN    
+Line 205: BRAND_WINNTSIF:
+Line 206:     CONST  WINNT_SIF$ = "C:\$WIN_NT$.~BT\WINNT.SIF"
+Line 207:     DESKPRO_TXT$ = "C:\SYSTEM.SAV\DESKPRO.TXT"
+Line 209:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 210:       RETURN
+Line 211:     END IF
+Line 212:       MODEL$=GetProfileString( "Hardware Detect", "Name", "", DESKPRO_TXT$)
+Line 213:       EditReplaceString("Windows NT Setup*Compaq Deskpro", "Windows NT 4.0*"+MODEL$, WINNT_SIF$)
+Line 214: RETURN
+Line 220: BRAND_WIN2K:
+Line 221:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 222:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 223:   OEMINFO$="c:\winnt\system32\oeminfo.ini"
+Line 225:   IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 226:      
+Line 227:       INTRVIEW$ = "c:\intrview.ini"
+Line 228:       MODEL$=GetProfileString( "System", "MachineName", "", INTRVIEW$)
+Line 229:       WriteProfileString ("General","Model",MODEL$, OEMINFO$)
+Line 231:   ELSE
+Line 233:      
+Line 234:       DESKPRO_TXT$ = "C:\SYSTEM.SAV\DESKPRO.TXT"
+Line 235:       MODEL$=GetProfileString( "Hardware Detect", "NAME", "", DESKPRO_TXT$)
+Line 236:       WriteProfileString ("General","Model",MODEL$, OEMINFO$)
+Line 238:   END IF
+Line 239: RETURN
+Success|C:\APPL.ZIP\BRAND\MKTPRE.MST
+[23:48:08.100] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:08.100]            ###SWITCH LOG: Wed Sep 05 23:48:08 2001
+[23:48:08.100]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:09.150] c:\appl.zip\preos\9xtcpip.bto
+[23:48:09.150] @REM 9xTCPIP.BTO
+[23:48:09.150] @REM Adds TCPIP and File/Print sharing as the default networking components to load
+[23:48:09.150] c:\appl.zip\tools\winfeed.exe /i c:\appl.zip\scripts\9xtcpip\9xtcpip.mst
+[23:48:09.150]            ###SWITCH LOG: Wed Sep 05 23:48:09 2001
+[23:48:09.150]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:09.150] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 34:     CURR_PATH$ = CurDir$
+Line 36:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 38:        TargetOS$ = GetProfileString("Description","OSSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 39:        OSR_LEVEL$ = GetProfileString( "CONFIGURATION", "OPK", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 40:        CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 42:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 43:         OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", "C:\TOOLS\PREOS.INI")
+Line 44:        INFDIR$ = OS_SRC$
+Line 45:         LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "c:\system.sav\util\install.log", "C:\TOOL\PREOS.INI")
+Line 46:         SetLogFileName  LogFile$
+Line 47:     ELSE
+Line 48:        PRETRN$ = GetProfileString("Description","OSImagePath", "","C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 49:        INFDIR$ = PRETRN$ + "\WINDOWS\INF"
+Line 50:         LogFile$= "C:\SYSTEM.SAV\UTIL\INSTALL.LOG"
+Line 51:         XSetLogFileName LogFile$
+Line 52:     END IF    
+Line 54:     Log " "        
+Line 55:     LOG_TEXT$ = "Starting: 9xTCPIP.MST"
+Line 56:     XLogBanner LOG_TEXT$        
+Line 58:     LOG "      INF Directory = " + INFDIR$
+Line 60:        IF StrCmpi(TargetOS$,"WIN95")=0 THEN
+Line 61:                IF StrCmpi(CPQLANG$,"TH")=0 THEN
+Line 62:                        LOG "Thai Win95...exit script."
+Line 63:                        GOTO FINISH
+Line 64:                END IF
+Line 65:        END IF
+Line 68:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 69:        LOG "   Using Redwood...extract netdef.inf and nettrans.inf"
+Line 70:        EXTRACT$ = "c:\tools\extract.exe /a "
+Line 71:        EXTRACT_LINE$ = EXTRACT$ + INFDIR$
+Line 72:        IF StrCmpi(TargetOS$,"WIN95")=0 THEN
+Line 73:            RUN_EXTRACT$ = EXTRACT_LINE$ + "\precopy1.cab netdef.inf nettrans.inf"
+Line 74:        ELSE
+Line 75:            RUN_EXTRACT$ = EXTRACT_LINE$ + "\precopy1.cab netdef.inf"
+Line 76:        END IF
+Line 77:        Log "   Change dir to " + INFDIR$
+Line 78:        ChDir INFDIR$
+Line 79:        Log "   Running: " + RUN_EXTRACT$
+Line 80:        Run RUN_EXTRACT$
+Line 81:     END IF
+Line 83:     NET_DEF$       = INFDIR$ + "\NETDEF.INF"
+Line 84:     NET_DEF_BAK$   = "C:\appl.zip\scripts\9xtcpip\NETDEF.BAK"
+Line 85:     Log "      Netdef.inf file is " + NET_DEF$
+Line 87:     Log "      Backing up " + NET_DEF$
+Line 88:     Log "              to " + NET_DEF_BAK$
+Line 89:     CopyFile( NET_DEF$, NET_DEF_BAK$)
+Line 92:     IF StrCmpi(TargetOS$,"WIN95")=0 THEN
+Line 93:        LOG "   OS = Win95"    
+Line 94:        
+Line 95:        NET_TRANS$       = INFDIR$ + "\NETTRANS.INF"
+Line 96:        NET_TRANS_BAK$   = "C:\appl.zip\scripts\9xtcpip\NETTRANS.BAK"
+Line 97:        Log "   Nettrans.inf file is " + NET_TRANS$
+Line 99:        Log "   Backing up " + NET_TRANS$
+Line 100:       Log "           to " + NET_TRANS_BAK$
+Line 101:       CopyFile( NET_TRANS$, NET_TRANS_BAK$)
+Line 102:      
+Line 103:      
+Line 104:       OLD_PROTOCOLS$ = "NetTrans=NWLINK,NETBEUI"
+Line 105:         OLD_SERVICE$   = "NetService="
+Line 107:       NEW_PROTOCOLS$ = "NetTrans=NWLINK,NETBEUI,MSTCP"
+Line 108:         NEW_SERVICE$   = "NetService=VSERVER"
+Line 110:       LOG "   Writing out NETDEF.INF:[Typical] NetTrans=NWLINK,NETBEUI,MSTCP"
+Line 111:       WriteProfileString( "TYPICAL", "NetTrans", "NWLINK,NETBEUI,MSTCP", NET_DEF$)
+Line 112:       LOG "   Writing out NETDEF.INF:[Typical] NetService=VSERVER"
+Line 113:       WriteProfileString( "Typical", "NetService", "VSERVER", NET_DEF$)
+Line 115:       DHCP_POPUP$ = "HKLM,System\CurrentControlSet\Services\VxD\DHCP,PopupFlag,1,00,00,00,00"
+Line 116:       DHCP_SECTION$ = "[MSTCP.ndi.reg]"
+Line 118:       EditAppendLine( DHCP_SECTION$, DHCP_POPUP$, NET_TRANS$ )
+Line 119:     END IF    
+Line 121:     IF StrCmpi(TargetOS$,"WIN98")=0 THEN
+Line 122:         SERVICE$   = "NetService=VSERVER"    
+Line 124:       LOG "   Writing out NETDEF.INF:[LAN_TYPICAL] NetService=VSERVER"
+Line 125:       WriteProfileString( "LAN_TYPICAL", "NetService", "VSERVER", NET_DEF$)
+Line 126:     END IF    
+Line 128:     TCP_CLEANUP$ = "c:\appl.zip\tools\winfeed.exe /i c:\appl.zip\scripts\9xtcpip\cleanup.mst"
+Line 130:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 131:       CLEANUP_BTO$ = "C:\APPL.ZIP\CLEANUP.RW\CLEANUP.BTO"
+Line 132:       EditAppendLine( 1000, TCP_CLEANUP$, CLEANUP_BTO$ )
+Line 133:     ELSE
+Line 134:       CLEANUP_BTO$ = "C:\APPL.ZIP\CLEANUP\CLEANUP.BTO"
+Line 135:       ENTRY_POINT$ = "@REM $ADD HERE$ - OTHER SCRIPTS MAY ADD CLEANUP LINES HERE"
+Line 136:       EditAppendLine( ENTRY_POINT$, TCP_CLEANUP$, CLEANUP_BTO$ )
+Line 137:     END IF
+Line 139: Log "  Done processing"
+Line 142: Log " "        
+Line 143: LOG_TEXT$ = "Exiting: 9xTCPIP.MST"
+Line 144: XLogBanner LOG_TEXT$        
+Line 145: FINISH:
+Line 146: END
+ 
+ 
+****** Starting: 9xTCPIP.MST ******
+ 
+        INF Directory = c:\us98\WINDOWS\INF
+        Netdef.inf file is c:\us98\WINDOWS\INF\NETDEF.INF
+        Backing up c:\us98\WINDOWS\INF\NETDEF.INF
+                to C:\appl.zip\scripts\9xtcpip\NETDEF.BAK
+        Writing out NETDEF.INF:[LAN_TYPICAL] NetService=VSERVER
+  Done processing
+ 
+ 
+****** Exiting: 9xTCPIP.MST ******
+ 
+Success|c:\appl.zip\scripts\9xtcpip\9xtcpip.mst
+[23:48:14.040] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:14.040]            ###SWITCH LOG: Wed Sep 05 23:48:14 2001
+[23:48:14.040]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:15.080] c:\appl.zip\preos\98Chips.bto
+[23:48:15.080] @REM ==================================================================================
+[23:48:15.080] @REM 98Chips.BTO
+[23:48:15.130] @REM Copyright 1998, Compaq Computer Corporation.
+[23:48:15.130] @REM ==================================================================================
+[23:48:15.130] @REM Description: This script will modify the Intel 810/820/840 Support Inf files
+[23:48:15.130] @REM for Win98.
+[23:48:15.130] @REM
+[23:48:15.130] @REM ==================================================================================
+[23:48:15.130] c:\appl.zip\tools\winfeed.exe /I C:\APPL.ZIP\chipset\98Chips.MST
+[23:48:15.130]            ###SWITCH LOG: Wed Sep 05 23:48:15 2001
+[23:48:15.130]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:15.130] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 2:     FILE_NAME$ = "98Chips.MST"
+Line 20:     DEST_SETUP$="\Windows\Options\Cabs"
+Line 21:     SRC_PATH$="\Appl.zip\chipset\"
+Line 22:     INF_1$=SRC_PATH$ + "ICHx.INF"
+Line 23:     INF_2$=SRC_PATH$ + "ICHxIDE.INF"
+Line 24:     INF_3$=SRC_PATH$ + "ICHxUSB.INF"
+Line 26:     CAT_1$=SRC_PATH$ + "ICHx.CAT"
+Line 27:     CAT_2$=SRC_PATH$ + "ICHxIDE.CAT"
+Line 28:     CAT_3$=SRC_PATH$ + "ICHxUSB.CAT"
+Line 30:     TargetOS$=GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 31:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 32:    
+Line 33:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 34:        DEST_OS$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", "C:\TOOLS\PREOS.INI")
+Line 35:         LogFile$="C:\restore.log"
+Line 36:        OPK$=GetProfileString( "DetectedOS", "OSR", "0", "C:\INTRVIEW.INI")
+Line 37:     ELSE
+Line 38:        DEST_OS$="\Windows\Inf"
+Line 39:         LogFile$ = "C:\system.sav\pisetup.log"
+Line 40:        OPK$=GetProfileString( "Configuration", "OPK", "0", "C:\SYSTEM.SAV\UTIL\CIA.INI")    
+Line 41:     END IF
+Line 42:     SetLogFileName  LogFile$    
+Line 43:     XLogBanner FILE_NAME$
+Line 45:     IF (StrCmpi(TargetOS$,"WIN98")=0) THEN
+Line 46:        Log "  running Win98"
+Line 48:        IF (StrCmpi(OPK$,"0")=0) THEN
+Line 49:            Log "  Win98 pre-SE found"
+Line 50:            Log "  Copying files"
+Line 52:            CopyFile(INF_1$  , DEST_OS$,0,0,"a")
+Line 53:            CopyFile(INF_2$  , DEST_OS$,0,0,"a")
+Line 54:            CopyFile(INF_3$  , DEST_OS$,0,0,"a")
+Line 56:            CopyFile(INF_1$  , DEST_SETUP$,0,0,"a")
+Line 57:            CopyFile(INF_2$  , DEST_SETUP$,0,0,"a")
+Line 58:            CopyFile(INF_3$  , DEST_SETUP$,0,0,"a")
+Line 60:            CopyFile(CAT_1$  , DEST_OS$,0,0,"a")
+Line 61:            CopyFile(CAT_2$  , DEST_OS$,0,0,"a")
+Line 62:            CopyFile(CAT_3$  , DEST_OS$,0,0,"a")
+Line 64:            CopyFile(CAT_1$  , DEST_SETUP$,0,0,"a")
+Line 65:            CopyFile(CAT_2$  , DEST_SETUP$,0,0,"a")
+Line 66:            CopyFile(CAT_3$  , DEST_SETUP$,0,0,"a")
+Line 68:        ELSE
+Line 69:            Log "  Win98 SE or newer found"
+Line 71:        END IF
+Line 73:     ELSE
+Line 74:        Log "  Do Nothing, shouldn't see this ever"
+Line 75:     END IF    
+Line 77:     Log "  Done"
+Line 78: END
+Success|C:\APPL.ZIP\chipset\98Chips.MST
+[23:48:19.030] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:19.030]            ###SWITCH LOG: Wed Sep 05 23:48:19 2001
+[23:48:19.030]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:20.020] c:\appl.zip\preos\98PChips.bto
+[23:48:20.020] @REM ==================================================================================
+[23:48:20.080] @REM 98PChips.BTO
+[23:48:20.080] @REM Copyright 1998, Compaq Computer Corporation.
+[23:48:20.080] @REM ==================================================================================
+[23:48:20.080] @REM Description: This script will modify the Intel 810/820/840 Support Inf files
+[23:48:20.080] @REM for Win98.
+[23:48:20.080] @REM
+[23:48:20.080] @REM ==================================================================================
+[23:48:20.080] c:\appl.zip\tools\winfeed.exe /I C:\APPL.ZIP\chipset\98PChips.MST
+[23:48:20.080]            ###SWITCH LOG: Wed Sep 05 23:48:20 2001
+[23:48:20.080]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:20.080] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 2:     FILE_NAME$ = "98PChips.MST"
+Line 21:     TargetOS$=GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 22:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 23:    
+Line 24:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 25:         LogFile$="C:\restore.log"
+Line 26:        SetLogFileName  LogFile$    
+Line 27:        XLogBanner FILE_NAME$
+Line 29:        IF (StrCmpi(TargetOS$,"WIN98")=0) THEN
+Line 30:            Log "  running Win98"
+Line 32:            OPK$=GetProfileString( "DetectedOS", "OSR", "0", "C:\INTRVIEW.INI")    
+Line 33:            IF (StrCmpi(OPK$,"0")=0) THEN
+Line 34:                Log "  Win98 pre-SE found"
+Line 35:                Log "  doing nothing"
+Line 37:            ELSE
+Line 38:                Log "  Win98 SE or newer found"
+Line 39:                Log "  Adding DMA support because RW 98 SE"
+Line 40:                OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", "C:\TOOLS\PREOS.INI")
+Line 41:                Log "  Using OS source path of ->" + OS_SRC$
+Line 42:               
+Line 43:                 CMD_Line_To_Run$ = "C:\tools\extract.exe /A /E /L " + OS_SRC$ + " " + OS_SRC$ + "\precopy1.cab MSHDC.INF"
+Line 44:                Log "  Running ->" + CMD_Line_To_Run$
+Line 45:                Run CMD_Line_To_Run$
+Line 46:               
+Line 47:                MSHDC_INF$ = OS_SRC$ + "\MSHDC.INF"
+Line 48:                CMD_Line_To_Run$ = "C:\Appl.zip\chipset\MERGEIT.EXE C:\Appl.zip\chipset " + MSHDC_INF$ + " AddDMA.INF"
+Line 49:                Log "  Running ->" + CMD_Line_To_Run$
+Line 50:                Run CMD_Line_To_Run$
+Line 51:            END IF
+Line 53:        ELSE
+Line 54:            Log "  Do Nothing, shouldn't see this ever"
+Line 55:        END IF
+Line 56:     ELSE
+Line 57:         LogFile$ = "C:\system.sav\pisetup.log"
+Line 58:        SetLogFileName  LogFile$    
+Line 59:        XLogBanner FILE_NAME$
+Line 60:        Log "... Nothing to do"
+Line 61:     END IF
+Line 64:     Log "  Done"
+Line 65: END
+Success|C:\APPL.ZIP\chipset\98PChips.MST
+[23:48:23.210] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:23.210]            ###SWITCH LOG: Wed Sep 05 23:48:23 2001
+[23:48:23.210]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:48:24.200] Processing ->CMD52 ->TransitOsFiles
+[23:48:25.190] Processing ->CMD53 ->HookToRunInNewOs
+[23:48:25.240] Processing ->CMD54 ->TransitBootLoader
+[23:48:25.240] Processing ->CMD55 ->SetupCleanupDirectories
+[23:48:25.240] Processing ->CMD56 ->DelOsFiles
+[23:48:29.090] Processing ->CMD57 ->SetVar(FbiData,ProcessState,OsSetup)
+[23:48:29.090] Processing ->CMD58 ->SystemReboot
+[23:48:29.090] NOTICE: SM will attempt to restart/shutdown the computer
+FBI Shutting down at ->Wed Sep 05 23:48:29 2001
+<- aka ->999751709
+Run time ->123
+Total Run time ->123
+Total time since first start ->0
+ 
+******************************************************
+FBI StartUp at ->Wed Sep 05 23:50:43 2001<- aka ->999759043
+Reboot time ->0
+Log started on Wed Sep 05 23:50:43 2001
+[23:50:44.090] FBI is starting in Retail mode
+[23:50:44.150] Loading Internal FBI Toolbox functions
+[23:50:44.260] LoadFBIInt15 - FBIInt15.VxD load Successful
+[23:50:44.310] LoadFBIKB_95 - FBIKB_95.VxD load Successful
+[23:50:44.370]  OpenFBIKB_95() - FBIKB_95.VxD driver loaded successfully
+[23:50:44.370] Loading Internal FBI Script functions
+[23:50:44.530] Done Loading FBI Environment
+[23:50:46.780] No Startup Delay defined
+[23:50:46.890] Task Manager thread is starting, current section is ->FactoryPreinstall.WIN98.GLOBAL
+[23:50:46.890] No delay defined...
+[23:50:46.950] Processing ->CMD59 ->CheckForOsTransit
+[23:50:46.950] Processing ->CMD60 ->SetVar(FbiData,ProcessState,PostOsScripts)
+[23:50:46.950] Processing ->CMD61 ->SetVar(FBIData,BTOName,C:\appl.zip\osupdate)
+[23:50:46.950] Processing ->CMD62 ->ProcessBTOName
+[23:50:47.000] c:\appl.zip\osupdate
+[23:50:47.000] c:\appl.zip\osupdate\NTNetSU.BTO
+[23:50:47.110] @REM =======================================================================
+[23:50:47.110] @REM This file installs and configures NT 4.0 Networking PostOS
+[23:50:47.110] @REM -----------------------------------------------------------------------
+[23:50:47.110] @REM Copyright 2000, Compaq Computer Corporation.
+[23:50:47.110] @REM =======================================================================
+[23:50:47.110] @COPY C:\WINNT\SYSTEM32\netdefs.INF C:\SYSTEM.SAV
+[23:50:47.170] WARNING-=-CmdCopy() -  Invalid Parameters : SourceFile (C:\WINNT\SYSTEM32\netdefs.INF) does not Exist
+[23:50:47.170] WARNING-=-CmdCopy() -  Invalid Parameters : SourceFile (C:\WINNT\SYSTEM32\netdefs.INF) does not Exist
+[23:50:47.170] @COPY C:\appl.zip\tools\netdefs.INF C:\WINNT\SYSTEM32
+[23:50:47.170] C:\appl.zip\tools\NTNetSU.EXE
+NTNetSU> not running WinNT 4.0 - I shouldn't be ran
+[23:50:49.040] @COPY C:\SYSTEM.SAV\netdefs.INF C:\WINNT\SYSTEM32
+[23:50:49.040] WARNING-=-CmdCopy() -  Invalid Parameters : SourceFile (C:\SYSTEM.SAV\netdefs.INF) does not Exist
+[23:50:49.090] WARNING-=-CmdCopy() -  Invalid Parameters : SourceFile (C:\SYSTEM.SAV\netdefs.INF) does not Exist
+[23:50:50.080] c:\appl.zip\osupdate\ALTIRIS.BTO
+[23:50:50.130] @REM ==================================================================================
+[23:50:50.130] @REM Altiris.BTO
+[23:50:50.130] @REM Copyright 1999, Compaq Computer Corporation.
+[23:50:50.130] @REM Moved to OSUPDATE due to an FBI issue with dynamically creating a BTO file
+[23:50:50.130] @REM ==================================================================================
+[23:50:50.130] @AddToIgnoreList ACLIENT.EXE
+[23:50:50.130] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\ALTIRIS\ALTIRIS.MST
+[23:50:50.130]            ###SWITCH LOG: Wed Sep 05 23:50:50 2001
+[23:50:50.130]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:50:50.130] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 16:   CONST LOG_TEXT  = "Altirissetup"
+Line 17:   CONST LOG_PATH$ = "C:\SYSTEM.SAV\"
+Line 19:   LOG_FILE$ = LOG_PATH$ + "Altirissetup.log"
+Line 20:   CHECK_POINT$ = LOG_TEXT + " Check Point "
+Line 22:   XDeleteFileIfExists LOG_FILE$
+Line 23:   XSetLogFileName LOG_FILE$
+Line 24:   XLogBanner LOG_TEXT
+Line 26:   ACLIENT$ = "C:\COMPAQ\ACLIENT\ACLIENT -SILENT"
+Line 27:  
+Line 31:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 32:  
+Line 33:   IF StrCmp(CPQLANG$,"US")=0 THEN
+Line 34:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 35:        Log "Writing to ALTSU.BTO"
+Line 36:   ELSEIF StrCmp(CPQLANG$,"FR")=0 THEN
+Line 37:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 38:        Log "Writing to ALTSU.BTO"
+Line 39:   ELSEIF StrCmp(CPQLANG$,"GR")=0 THEN
+Line 40:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 41:        Log "Writing to ALTSU.BTO"
+Line 42:   ELSEIF StrCmp(CPQLANG$,"IT")=0 THEN
+Line 43:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 44:        Log "Writing to ALTSU.BTO"
+Line 45:   ELSEIF StrCmp(CPQLANG$,"SP")=0 THEN
+Line 46:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 47:        Log "Writing to ALTSU.BTO"
+Line 48:   ELSEIF StrCmp(CPQLANG$,"NL")=0 THEN
+Line 49:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 50:        Log "Writing to ALTSU.BTO"
+Line 51:   ELSEIF StrCmp(CPQLANG$,"SE")=0 THEN
+Line 52:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 53:        Log "Writing to ALTSU.BTO"
+Line 54:   ELSEIF StrCmp(CPQLANG$,"BR")=0 THEN
+Line 55:        EditInsertLine("", ACLIENT$, "C:\APPL.ZIP\INSTALL\ALTSU.BTO")
+Line 56:        Log "Writing to ALTSU.BTO"
+Line 57:   ELSE
+Line 58:        RmDir "C:\Compaq\AClient"
+Line 59:        DeleteFileIfExists "C:\Compaq\SW_VER\167338B2.cva"
+Line 60:        Log "Unsupported language - Removing c:\compaq\aclient and cva file"
+Line 61:   END IF      
+Line 62:   Log "Altiris eXpress Installation Script Completed"
+Line 63:   Pass
+Line 64: END
+Success|C:\APPL.ZIP\SCRIPTS\ALTIRIS\ALTIRIS.MST
+[23:51:00.020] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:00.020]            ###SWITCH LOG: Wed Sep 05 23:51:00 2001
+[23:51:00.020]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:00.020] WARNING-=-SpawnProgram( )..warning on process count
+[23:51:00.020] WARNING-=-Mismatch with Process count: Initial 18, Final 17
+[23:51:01.060] Processing ->CMD63 ->SetVar(FBIData,BTOName,C:\appl.zip\install.pi)
+[23:51:01.060] Processing ->CMD64 ->ProcessBTOName
+[23:51:01.060] c:\appl.zip\install.pi
+[23:51:01.060] c:\appl.zip\install.pi\Int810.bto
+[23:51:01.120] @REM =======================================================================
+[23:51:01.120] @REM This file supports the automatic installation of the following
+[23:51:01.120] @REM application:
+[23:51:01.120] @REM   Intel 810 Graphics Color depth
+[23:51:01.120] @REM -----------------------------------------------------------------------
+[23:51:01.120] @REM Copyright 1999, Compaq Computer Corporation.
+[23:51:01.120] @REM =======================================================================
+[23:51:01.120] C:\APPL.ZIP\TOOLS\winfeed.exe /I C:\APPL.ZIP\SCRIPTS\Int810\SETBPP.MST
+[23:51:01.120]            ###SWITCH LOG: Wed Sep 05 23:51:01 2001
+[23:51:01.120]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:01.120] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 28:   LogFile$="C:\SYSTEM.SAV\SETBPP.LOG"
+Line 30:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 31:   IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 32:      LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "c:\restore.log", "C:\tools\PREOS.INI")
+Line 33:   END IF
+Line 35:   SetLogFileName  LogFile$
+Line 36:   Log "   Starting: WinFeed SETBPP.MST"
+Line 37:        
+Line 38:   OS$=GetProfileString( "DESCRIPTION", "OSSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 39:               
+Line 40:  
+Line 41:      Log "Fixing registry"
+Line 42:      REG_FIX$ = "\WINDOWS\Regedit /s \appl.zip\scripts\Int810\setbpp.reg"     
+Line 43:      RUN REG_FIX$
+Line 44:  
+Line 45:   Log "   Complete:   Winfeed SETBPP.MST"
+Line 46: END
+Success|C:\APPL.ZIP\SCRIPTS\Int810\SETBPP.MST
+[23:51:04.030] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:04.030]            ###SWITCH LOG: Wed Sep 05 23:51:04 2001
+[23:51:04.030]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:05.020] c:\appl.zip\install.pi\w98etins.bto
+[23:51:05.070] @REM =======================================================================
+[23:51:05.070] @REM This file performs non-PREOS Engineering tweaks for Windows 98
+[23:51:05.070] @REM -----------------------------------------------------------------------
+[23:51:05.070] @REM Copyright 1998, Compaq Computer Corporation.
+[23:51:05.070] @REM =======================================================================
+[23:51:05.070] @REM -----------------------------------------------------------------------
+[23:51:05.070] @REM If SI Build, insert @restart to cleanup.bto TP 5/8/00
+[23:51:05.070] @REM -----------------------------------------------------------------------
+[23:51:05.070] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\si_build.mst
+[23:51:05.130]            ###SWITCH LOG: Wed Sep 05 23:51:05 2001
+[23:51:05.130]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:05.130] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 9:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 10:   LogFile$="C:\SYSTEM.SAV\UTIL\INSTALL.LOG"
+Line 11:   XSetLogFileName LogFile$
+Line 12:   BUILD_RTR$=GetProfileString( "CONFIGURATION", "BuildRTR", "FALSE",CIA_INI$)
+Line 14:   IF (StrCmpi(BUILD_RTR$,"TRUE")=0) THEN
+Line 15:    
+Line 16:     CLEANUP$="C:\APPL.ZIP\CLEANUP\CLEANUP.BTO"
+Line 17:     line1$="C:\APPL.ZIP\SCRIPTS\SI_INF\SETUP.EXE -S"
+Line 18:     EditInsertLine(line1$,"@RESTART",CLEANUP$)
+Line 19:     comment$="Inserting @restart to cleanup.bto before executing C:\APPL.ZIP\SCRIPTS\SI_INF\SETUP.EXE -S"
+Line 20:     Log "Inserting @restart to cleanup.bto before executing C:\APPL.ZIP\SCRIPTS\SI_INF\SETUP.EXE -S"
+Line 21:   ELSE
+Line 22:     Log "Non-rtr image -- nothing done to si_build.mst"
+Line 23:     Goto AllDone
+Line 24:   END IF
+Line 26: AllDone:
+Line 27: END
+Non-rtr image -- nothing done to si_build.mst
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\si_build.mst
+[23:51:08.260] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:08.260]            ###SWITCH LOG: Wed Sep 05 23:51:08 2001
+[23:51:08.260]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:08.260] @REM -----------------------------------------------------------------------
+[23:51:08.260] @REM Update Win.ini accordingly to the selected regional setting. TTran 5/25/99
+[23:51:08.260] @REM -----------------------------------------------------------------------
+[23:51:08.260] @REM C:\APPL.ZIP\SCRIPTS\SI_INF\SETUP.EXE -S
+[23:51:08.260] @REM -----------------------------------------------------------------------
+[23:51:08.260] @REM Real Mode MOUSE and CD ROM SUPPORT IN CONFIG.SYS AND DOSSTART.BAT
+[23:51:08.260] @REM -----------------------------------------------------------------------
+[23:51:08.260] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\DOSSTART.MST
+[23:51:08.260]            ###SWITCH LOG: Wed Sep 05 23:51:08 2001
+[23:51:08.260]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:08.260] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 38:     CONST INFO_RTR$       = "C:\INFO.RTR"
+Line 39:     IF FileExists(INFO_RTR$) THEN
+Line 40:        Goto AllDone
+Line 41:     END IF
+Line 43:     CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 44:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 45:     IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 46:         SetLogFileName  "C:\restore.log"
+Line 47:     Else
+Line 48:         SetLogFileName  "C:\system.sav\util\install.log"
+Line 49:     END IF
+Line 51:     Log " "        
+Line 52:     XLogBanner "Starting: DOSSTART.MST"
+Line 53:    
+Line 54:     WINDIR$ = EnvVar$("windir")
+Line 55:     DOSSTART_BAT$ = WINDIR$ + "\DOSSTART.BAT"
+Line 56:     CONST CONFIG_SYS$ = "C:\CONFIG.SYS"
+Line 58:     CONST ECHO_OFF$= "@echo off"
+Line 59:     CONST ADDLINE1 = "REM ----------------------------------------------------------------------------"
+Line 60:     CONST ADDLINE2 = "REM - REMOVE 'REM' FROM FOLLOWING LINE IN CONFIG.SYS IF YOU WANT TO LOAD"
+Line 61:     CONST ADDLINE2B= "REM -   THE DOS CDROM DRIVER"
+Line 62:     CONST ADDLINE3 = "REM DEVICE=C:\WINDOWS\COMMAND\CPQIDECD.SYS /D:IDECD001"
+Line 63:     CONST ADDLINE4 = "REM - REMOVE 'REM' FROM FOLLOWING LINE FOR DOS CDROM SUPPORT."
+Line 64:     CONST ADDLINE5 = "REM MSCDEX.EXE  /D:IDECD001 /l:d"
+Line 65:     CONST ADDLINE6 = "MOUSE.EXE"
+Line 67:     CFGLINE1$ = "REM - REMOVE 'REM' FROM FOLLOWING LINE IF YOU WANT TO LOAD THE REAL MODE CDROM DRIVER"
+Line 68:     CFGLINE2$ = "REM DEVICE=" + WINDIR$ + "\COMMAND\CPQIDECD.SYS /D:IDECD001"
+Line 70:     PATH1$ = "C:\APPL.ZIP\SCRIPTS\W98ETOOL"
+Line 71:     BLANK1$ = PATH1$ + "\BLANK.TXT"
+Line 72:     COMMAND_PATH$ = WINDIR$ + "\COMMAND"
+Line 73:     SMOUSE$ = PATH1$ + "\mouse.exe"
+Line 74:     SCPQIDECD$ = PATH1$ + "\cpqidecd.sys"
+Line 75:     DMOUSE$ = COMMAND_PATH$ + "\mouse.exe"
+Line 76:     DCPQIDECD$ = COMMAND_PATH$ + "\CPQIDECD.SYS"
+Line 77:    
+Line 81:     Log "   Modifying DOSSTART.BAT"
+Line 83:     DeleteFileIfExists DOSSTART_BAT$
+Line 84:     CopyFile(BLANK1$, DOSSTART_BAT$)
+Line 86:     EditAppendLine( 1, ECHO_OFF$, DOSSTART_BAT$)
+Line 87:     EditAppendLine( ECHO_OFF$, ADDLINE1$, DOSSTART_BAT$)
+Line 88:     EditAppendLine( ADDLINE1$, ADDLINE2$, DOSSTART_BAT$)
+Line 89:     EditAppendLine( ADDLINE2$, ADDLINE2B$, DOSSTART_BAT$)  
+Line 90:     EditAppendLine( ADDLINE2B$, ADDLINE3$, DOSSTART_BAT$)
+Line 91:     EditAppendLine( ADDLINE3$, ADDLINE4$, DOSSTART_BAT$)
+Line 92:     EditAppendLine( ADDLINE4$, ADDLINE5$, DOSSTART_BAT$)
+Line 93:     EditAppendLine( ADDLINE5$, ADDLINE6$, DOSSTART_BAT$)
+Line 98:     Log "   Modifing CONFIG.SYS"
+Line 99:     IF FileExists(CONFIG_SYS$)=0 Then
+Line 100:       CopyFile(BLANK1$,CONFIG_SYS$)
+Line 101:     End IF
+Line 102:     EditAppendLine( 1000, CFGLINE1$, CONFIG_SYS$)
+Line 103:     EditAppendLine( CFGLINE1$, CFGLINE2$, CONFIG_SYS$)  
+Line 108:     Log "   Copying " + SMOUSE$ + " to " + DMOUSE$
+Line 109:     CopyFile(SMOUSE$, DMOUSE$)
+Line 110:     Log "   Copying " + SCPQIDECD$ +" to " + DCPQIDECD$
+Line 111:     CopyFile(SCPQIDECD$, DCPQIDECD$)
+Line 113:     XLogBanner "Completed: DOSSTART.MST"
+Line 115: AllDone:
+Line 116: END
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\DOSSTART.MST
+[23:51:11.120] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:11.120]            ###SWITCH LOG: Wed Sep 05 23:51:11 2001
+[23:51:11.120]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:11.120] @REM -----------------------------------------------------------------------
+[23:51:11.120] @REM Perform non-PREOS Engineering Tweaks
+[23:51:11.120] @REM -----------------------------------------------------------------------
+[23:51:11.120] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\SYSCFG.MST
+[23:51:11.120]            ###SWITCH LOG: Wed Sep 05 23:51:11 2001
+[23:51:11.120]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:11.120] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 12:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 13:   OSIMAGEPATH$ = GetProfileString( "DESCRIPTION", "OSImagePath", "", CIA_INI$)
+Line 14:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", CIA_INI$)
+Line 15:  
+Line 19:      Run "regedit -s c:\appl.zip\scripts\w98etool\standby.reg"
+Line 21:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 22:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 23:  
+Line 24:     SetLogFileName "c:\restore.log"
+Line 25:     XLogBanner "Skip SYSCFG.MST"
+Line 26:     Goto AllDone    
+Line 27:   END IF
+Line 28:  
+Line 32:   CONST LOG_TEXT  = "Win98 Automation Updates: Starting Syscfg.mst"
+Line 33:   CONST LOG_PATH$ = "\system.sav\util\"
+Line 34:   LOG_FILE$ = LOG_PATH$ + "INSTALL.LOG"
+Line 35:   CHECK_POINT$ = LOG_TEXT + " Check Point "
+Line 37:   XSetLogFileName LOG_FILE$
+Line 38:   XLogBanner LOG_TEXT
+Line 43:   LABEL$ = "C:\COMMAND.COM /C C:\Windows\COMMAND\LABEL C: COMPAQ"
+Line 45:   Run LABEL$
+Line 46:   Log CHECK_POINT$ + " Run " + LABEL$
+Line 52:    Run "regedit -s c:\appl.zip\scripts\w98etool\estar.reg"
+Line 57:    Run "regedit -s c:\appl.zip\scripts\w98etool\98tweak.reg"
+Line 74:   RmDir OSIMAGEPATH$
+Line 77:   Log LOG_TEXT$ + " Installation Complete!!"
+Line 80: Alldone:
+Line 81: Pass
+Line 83: END
+ 
+****** Win98 Automation Updates: Starting Syscfg.mst ******
+ 
+Win98 Automation Updates: Starting Syscfg.mst Check Point  Run C:\COMMAND.COM /C C:\Windows\COMMAND\LABEL C: COMPAQ
+Win98 Automation Updates: Starting Syscfg.mst Installation Complete!!
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\SYSCFG.MST
+[23:51:15.180] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:15.180]            ###SWITCH LOG: Wed Sep 05 23:51:15 2001
+[23:51:15.180]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:15.180] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\OSFILES.MST
+[23:51:15.180]            ###SWITCH LOG: Wed Sep 05 23:51:15 2001
+[23:51:15.180]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:15.180] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 34:     CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 35:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", CIA_INI$)
+Line 36:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 37:     OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", CIA_INI$)
+Line 38:     WINDIR$ = EnvVar$("windir")
+Line 39:     WINDIR_INF$ = WINDIR$ + "\inf"
+Line 42:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 43:         SetLogFileName  "c:\restore.log"
+Line 44:     ELSE
+Line 45:         SetLogFileName  "C:\system.sav\util\install.log"
+Line 46:         XLogBanner "OSFILES.MST"
+Line 47:         Log " Skipped for non-RW."
+Line 48:         goto AllDone
+Line 49:     END IF
+Line 50:     Log " "
+Line 51:     XLogBanner "OSFILES.MST"
+Line 56:     FILE_INF$ = OS_SRC$ + "\snmp.inf"
+Line 57:     IF FileExists(FILE_INF$) THEN
+Line 58:         Log "    Copying " + FILE_INF$ + " to " + WINDIR_INF$
+Line 59:         CopyFile(FILE_INF$,WINDIR_INF$,0,1,"a")
+Line 60:     END IF        
+Line 61:    
+Line 65:     FILE_INF$ = OS_SRC$ + "\regserv.inf"
+Line 66:     IF FileExists(FILE_INF$) THEN
+Line 67:         Log "    Copying " + FILE_INF$ + " to " + WINDIR_INF$
+Line 68:         CopyFile(FILE_INF$,WINDIR_INF$,0,1,"a")
+Line 69:     END IF        
+Line 70:  
+Line 75:     OOBEINFO$ = "C:\Windows\system\oobe\oobeinfo.ini"
+Line 76:     IF FileExists (OOBEINFO$) THEN
+Line 77:        LOG " Writing out " + OOBEINFO$ + " line :[Signup] ISPSignup=None"
+Line 78:        WriteProfileString( "Signup", "ISPSignup", "None", OOBEINFO$)
+Line 79:     ELSE
+Line 80:        LOG " Cannot find " + OOBEINFO$ + ". Skip writing out OOBEInfo.ini:[Signup] ISPSignup=None for non 98 SE"
+Line 81:     END IF
+Line 84:     XLogBanner "Completed: OSFILES.MST"
+Line 86: AllDone:    
+Line 87: END
+ 
+****** OSFILES.MST ******
+ 
+ Skipped for non-RW.
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\OSFILES.MST
+[23:51:18.040] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:18.040]            ###SWITCH LOG: Wed Sep 05 23:51:18 2001
+[23:51:18.040]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:18.090] @REM -----------------------------------------------------------------------
+[23:51:18.090] @REM Perform workaround for FISH problem with extended characters
+[23:51:18.090] @REM -----------------------------------------------------------------------
+[23:51:18.090] @DISABLELOG
+[23:51:18.090] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 8:   CONST CIA_INI$  = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 9:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 10:   CONST INFO_RTR$ = "C:\INFO.RTR"
+Line 11:  
+Line 12:   IF FileExists(INFO_RTR$) THEN
+Line 13:     Goto AllDone    
+Line 15:   ELSEIF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 16:  
+Line 17:     SetLogFileName "c:\restore.log"
+Line 18:     XLogBanner "Skip SCAN.MST"
+Line 19:     Goto AllDone    
+Line 21:   ELSE
+Line 22:     Run "regedit -s c:\appl.zip\scripts\w98etool\setup.reg"
+Line 23:     Run "\command.com /c scandisk.exe c: /N"
+Line 24:     Run "regedit -s c:\appl.zip\scripts\w98etool\reset.reg"
+Line 26:   END IF
+Line 28: AllDone:
+Line 29: End
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\SCAN.MST
+[23:51:21.220] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:22.210] Processing ->CMD65 ->SetVar(FBIData,BTOName,C:\appl.zip\install)
+[23:51:22.210] Processing ->CMD66 ->ProcessBTOName
+[23:51:22.210] c:\appl.zip\install
+[23:51:22.270] c:\appl.zip\install\Bootchk.bto
+[23:51:22.270] @REM =======================================================================
+[23:51:22.270] @REM This file finalizes configuration of Windows 95 under CIA2
+[23:51:22.270] @REM -----------------------------------------------------------------------
+[23:51:22.270] @REM Copyright 1998, Compaq Computer Corporation.
+[23:51:22.270] @REM =======================================================================
+[23:51:22.270] @REM -----------------------------------------------------------------------
+[23:51:22.270] @REM This script will skip calling fixboot.bat if language is AR or IL
+[23:51:22.270] @REM
+[23:51:22.270] @REM -----------------------------------------------------------------------
+[23:51:22.270] C:\APPL.ZIP\TOOLS\WINFEED.EXE -I C:\APPL.ZIP\SCRIPTS\BOOTFIX\FIXBOOT.MST
+[23:51:22.320]            ###SWITCH LOG: Wed Sep 05 23:51:22 2001
+[23:51:22.320]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:22.320] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 16:     UseRedwood$  = GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 17:     OLD_BOOTFIX$ = "C:\APPL.ZIP\TEST.DON\BOOTFIX.BTO"
+Line 18:     NEW_BOOTFIX$ = "C:\APPL.ZIP\TEST\BOOTFIX.BTO"
+Line 19:     BOOTFIX_BTO$ = "C:\APPL.ZIP\TEST.DON\BOOTFIX.BTO"
+Line 20:     OLDLINE$     = "C:\APPL.ZIP\SCRIPTS\BOOTFIX\FIXBOOT2.EXE -R"
+Line 21:     NEWLINE1$    = "C:\APPL.ZIP\SCRIPTS\BOOTFIX\DSKTSUPD.EXE /Q"
+Line 22:     NEWLINE2$    = "@RESTART"
+Line 23:     IF FileExists (OLD_BOOTFIX$) THEN
+Line 24:        BOOTFIX_BTO$ = OLD_BOOTFIX$
+Line 25:     ELSEIF FileExists (NEW_BOOTFIX$) THEN
+Line 26:        BOOTFIX_BTO$ = NEW_BOOTFIX$
+Line 27:     END IF
+Line 33:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 34:         OSR_LEVEL$ = GetProfileString( "DetectedOS", "OSR", "2", "C:\INTRVIEW.INI")
+Line 35:     ELSE
+Line 36:         OSR_LEVEL$ = GetProfileString( "CONFIGURATION", "OPK", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")        
+Line 37:     END IF
+Line 44:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 45:     WIN_VER$=GetProfileString( "OPTIONS", "WinVer", "", "C:\MSDOS.SYS")
+Line 46:     EditCaseSensitive (0)
+Line 47:     XSetLogFileName "C:\SYSTEM.SAV\DSKTSUPD.LOG"
+Line 49:     IF Strcmp(OSR_LEVEL$,"2")<0 THEN
+Line 50:       IF Strcmp(WIN_VER$,"4.10.1998")=0 OR Strcmp(WIN_VER$,"4.10.2222")=0 THEN
+Line 51:           xLog "NOT executing DSKTSUPD.EXE for W98 gold or W98(SE)"
+Line 52:       ELSE
+Line 53:           EditInsertLine(OLDLINE$, NEWLINE1$, BOOTFIX_BTO$)
+Line 54:           EditInsertLine(OLDLINE$, NEWLINE2$, BOOTFIX_BTO$)
+Line 55:           DeleteFileIfExists "C:\SYSTEM.SAV\DSKTSUPD.LOG"
+Line 56:           xLog "Executed DSKTSUPD.EXE for "+CPQLANG$+" OSR" + OSR_LEVEL$
+Line 58:       END IF
+Line 59:     END IF
+Line 61: END
+Success|C:\APPL.ZIP\SCRIPTS\BOOTFIX\FIXBOOT.MST
+[23:51:26.110] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:26.110]            ###SWITCH LOG: Wed Sep 05 23:51:26 2001
+[23:51:26.160]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:27.150] c:\appl.zip\install\EZKEYBD.BTO
+[23:51:27.150] @REM =======================================================================
+[23:51:27.150] @REM This file supports the automatic installation of the following
+[23:51:27.150] @REM application:
+[23:51:27.150] @REM   "Software Application/Driver for the Compaq Easy Access keyboard"
+[23:51:27.150] @REM for multiple languages
+[23:51:27.150] @REM -----------------------------------------------------------------------
+[23:51:27.150] @REM Copyright 1999, Compaq Computer Corporation.
+[23:51:27.210] @REM =======================================================================
+[23:51:27.210] @REM -----------------------------------------------------------------------
+[23:51:27.210] @REM -----------------------------------------------------------------------
+[23:51:27.210] @RMDIR C:\COMPAQ\MMKEYBD
+[23:51:27.210] WARNING-=-SBRemoveDir() - Invalid File Handle - C:\COMPAQ\MMKEYBD\*.*
+[23:51:27.210] WARNING-=- FindFirstFile(C:\COMPAQ\MMKEYBD\*.*) 3-The system cannot find the path specified.  
+[23:51:27.210]              SBRemoveDir() - Exit
+[23:51:27.210] @AddToIgnoreList MMUSBKB2.EXE
+[23:51:27.210] @AddToIgnoreList MMKEYBD.EXE
+[23:51:27.210] @AddToIgnoreList MEDIACTR.EXE
+[23:51:27.210] C:\COMPAQ\EZKEYBD\SETUP.EXE /S
+[23:51:39.290] c:\appl.zip\install\directx.bto
+[23:51:39.290] @REM ==================================================================================
+[23:51:39.290] @REM Directx.BTO
+[23:51:39.290] @REM Copyright 1999, Compaq Computer Corporation.
+[23:51:39.290] @REM ==================================================================================
+[23:51:39.290] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\DIRECTX\WIN98G.MST
+[23:51:39.290]            ###SWITCH LOG: Wed Sep 05 23:51:39 2001
+[23:51:39.290]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:39.290] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 7:   CONST LOG_TEXT  = "WIN98DXG"
+Line 8:   CONST LOG_PATH$ = "C:\SYSTEM.SAV\"
+Line 10:   LOG_FILE$ = LOG_PATH$ + "WIN98DXG.log"
+Line 11:   CHECK_POINT$ = LOG_TEXT + " Check Point "
+Line 13:   XDeleteFileIfExists LOG_FILE$
+Line 14:   XSetLogFileName LOG_FILE$
+Line 15:   XLogBanner LOG_TEXT
+Line 21:  
+Line 22: OSSELECT$ = GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 23: UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 24: OPKSELECT$ = GetProfileString( "CONFIGURATION", "OPK", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 25:        
+Line 26: IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 27:   IF StrCmpi(OSSELECT$,"Win98")=0 THEN
+Line 28:      OSR_LEVEL$=GetProfileString("DetectedOS","OSR","0","C:\Intrview.ini")
+Line 29:      IF StrCmpi(OSR_LEVEL$,"0")=0 THEN
+Line 30:        Log " Installation of DirectX on Windows98 Gold BEGINS..."
+Line 31:        RUN ("C:\APPL.ZIP\SCRIPTS\DIRECTX\DX61OPK.EXE")
+Line 32:        Log " Installation of DirectX on Windows98 Gold Complete "
+Line 33:      END IF
+Line 34:   ELSE
+Line 35:     IF StrCmpi(OSSELECT$,"Win95") = 0 THEN
+Line 36:       Log " Installation of DirectX on Windows95 BEGINS..."
+Line 37:       RUN ("C:\APPL.ZIP\SCRIPTS\DIRECTX\DX61OPK.EXE")
+Line 38:       Log " Installation of DirectX on Windows95 Complete "
+Line 39:      END IF
+Line 40:   END IF
+Line 41: ELSE
+Line 42:   IF StrCmpi(OSSELECT$,"Win98") = 0 AND StrCmpi(OPKSELECT,"0")=0 THEN
+Line 43:     Log " Installation of DirectX on Windows98 Gold BEGINS..."
+Line 44:     RUN ("C:\APPL.ZIP\SCRIPTS\DIRECTX\DX61OPK.EXE")
+Line 45:     Log " Installation of DirectX on Windows98 Gold Complete "
+Line 46:   ELSE
+Line 47:     IF StrCmpi(OSSELECT$,"Win95") = 0 THEN
+Line 48:       Log " Installation of DirectX on Windows95 BEGINS..."
+Line 49:       RUN ("C:\APPL.ZIP\SCRIPTS\DIRECTX\DX61OPK.EXE")
+Line 50:       Log " Installation of DirectX on Windows95 Complete "
+Line 51:     END IF
+Line 52:   END IF
+Line 53: END IF
+Line 55: Log " Script Completed "
+Line 56: END  
+Success|C:\APPL.ZIP\SCRIPTS\DIRECTX\WIN98G.MST
+[23:51:43.080] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:43.140]            ###SWITCH LOG: Wed Sep 05 23:51:43 2001
+[23:51:43.140]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:51:44.130] c:\appl.zip\install\Intel_pm.bto
+[23:51:44.130] Regedit.exe -s C:\APPL.ZIP\SCRIPTS\Intel_pm\Intpm98.reg
+[23:51:47.310] c:\appl.zip\install\MOUSE.BTO
+[23:51:47.310] @REM =======================================================================
+[23:51:47.370] @REM This file supports the automatic installation of the following
+[23:51:47.370] @REM application:
+[23:51:47.370] @REM   "Logitech MouseWare Software Drivers" for WinNT 4.0\Win 9x
+[23:51:47.370] @REM -----------------------------------------------------------------------
+[23:51:47.370] @REM Copyright 2000, Compaq Computer Corporation.
+[23:51:47.370] @REM =======================================================================
+[23:51:47.370] @REM -----------------------------------------------------------------------
+[23:51:47.370] @REM -----------------------------------------------------------------------
+[23:51:47.370] C:\COMPAQ\MOUSE\SETUP.EXE /s
+[23:52:02.860] c:\appl.zip\install\ADI.BTO
+[23:52:02.910] @REM =======================================================================
+[23:52:02.910] @REM This file supports the automatic installation of the following
+[23:52:02.910] @REM application:
+[23:52:02.960] @REM Compaq/ADI SoundMax Intergrated Digital Audio for Windows 98/2000
+[23:52:02.960] @REM Version: 1.5B3    Revision: A    Pass: 2    
+[23:52:02.960] @REM -----------------------------------------------------------------------
+[23:52:02.960] @REM Copyright 1995 - 1997 Compaq Computer Corporation.
+[23:52:02.960] @REM =======================================================================
+[23:52:03.020] @REM -----------------------------------------------------------------------
+[23:52:03.020] @REM Use the silent mode install
+[23:52:03.020] @REM -----------------------------------------------------------------------
+[23:52:03.020] @RMDIR C:\WIN2K
+[23:52:04.060] c:\appl.zip\install\MltBay.bto
+[23:52:04.060] @REM ==================================================================================
+[23:52:04.060] @REM MltBay.BTO
+[23:52:04.060] @REM Copyright 1999, Compaq Computer Corporation.
+[23:52:04.060] @REM ==================================================================================
+[23:52:04.060] c:\compaq\multibay\setup.exe -s
+[23:52:15.050] @REM regedit.exe -s c:\appl.zip\scripts\mbfqfe\APMFlop.reg
+[23:52:15.050] regedit.exe -s c:\appl.zip\scripts\mbfqfe\ACPIFlop.reg
+[23:52:18.290] c:\appl.zip\install\NdisQfe.bto
+[23:52:18.290] @REM *********************************************************************
+[23:52:18.290] @REM NDISQFE.BTO - Installs new ndis.vxd to Win98SE systems to address a
+[23:52:18.290] @REM  problem resuming from standby (Q241133).
+[23:52:18.290] @REM *********************************************************************
+[23:52:18.290] c:\appl.zip\tools\winfeed.exe /I c:\appl.zip\scripts\ndisqfe\ndisqfe.mst
+[23:52:18.290]            ###SWITCH LOG: Wed Sep 05 23:52:18 2001
+[23:52:18.290]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:52:18.290] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 12: File$ = "ndisqfe.mst"
+Line 13: SetLogFileName "c:\system.sav\util\install.log"
+Line 14: UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "NO", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 16: LogBanner File$
+Line 20: IF Strcmpi(UseRedwood$,"YES")<>0 THEN
+Line 21:    Log "  This is preinstall..."
+Line 22:    OPK$=GetProfileString( "CONFIGURATION", "OPK", "0", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 23:    IF Strcmpi(OPK$,"0")<> 0 THEN
+Line 24:       Log "  This is Win98 OPK 1 or greater..."
+Line 25:      
+Line 26:       Log "  This will overwrite the following files if they exist: "
+Line 27:       run   "command.com /c  dir C:\appl.zip\scripts\ndisqfe\files\*.* /b >> c:\system.sav\util\install.log"
+Line 28:      
+Line 29:       CMD1$="command.com /c copy C:\appl.zip\scripts\ndisqfe\files\*.* c:\Windows\options\cabs /Y"
+Line 30:       log "  running [" + CMD1$ + "]"
+Line 31:       Run CMD1$
+Line 32:       CMD1$ = "rundll setupx.dll,InstallHinfSection DefaultInstall 128 c:\Windows\options\cabs\241133up.inf"
+Line 33:       log "  running [" + CMD1$ + "]"
+Line 34:       Run CMD1$
+Line 35:    ELSE
+Line 36:       Log "  This is Win98 OPK 0 or Win98 Gold..."
+Line 37:    END IF
+Line 42: ELSE
+Line 43:    Log "  This restore CD..."
+Line 44:    W98VER$=GetProfileString( "DESCRIPTION", "WIN98", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 45:    IF Strcmpi(W98VER$,"OSR1")=0 THEN
+Line 46:       Log "  This is Win98 OSR1..."
+Line 47:      
+Line 48:       Log "  This will overwrite the following files if they exist : "
+Line 49:       run   "command.com /c  dir C:\appl.zip\scripts\ndisqfe\files\*.* /b >> c:\system.sav\util\install.log"
+Line 50:    
+Line 51:       CMD1$="command.com /c copy C:\appl.zip\scripts\ndisqfe\files\*.* c:\Windows\options\cabs /Y"
+Line 52:       Run CMD1$
+Line 53:       log "  running [" + CMD1$ + "]"
+Line 54:       CMD1$ = "rundll setupx.dll,InstallHinfSection DefaultInstall 128 c:\Windows\options\cabs\241133up.inf"
+Line 55:       log "  running [" + CMD1$ + "]"
+Line 56:       Run CMD1$
+Line 57:    ELSE
+Line 58:       Log "  This is not Win98 OSR1..."  
+Line 59:    END IF
+Line 60: END IF
+Line 62: LogBanner File$
+Line 64: END
+ 
+****** ndisqfe.mst ******
+ 
+  This is preinstall...
+  This is Win98 OPK 1 or greater...
+  This will overwrite the following files if they exist:
+241133.cat
+241133un.inf
+241133up.inf
+ADVPACK.DLL
+CSETUP.exe
+NDIS.VXD
+qfecheck.exe
+QFECHECK.HLP
+W95INF16.DLL
+W95INF32.DLL
+  running [command.com /c copy C:\appl.zip\scripts\ndisqfe\files\*.* c:\Windows\options\cabs /Y]
+  running [rundll setupx.dll,InstallHinfSection DefaultInstall 128 c:\Windows\options\cabs\241133up.inf]
+ 
+****** ndisqfe.mst ******
+ 
+Success|c:\appl.zip\scripts\ndisqfe\ndisqfe.mst
+[23:52:22.240] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:52:22.240]            ###SWITCH LOG: Wed Sep 05 23:52:22 2001
+[23:52:22.300]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:52:23.290] c:\appl.zip\install\ALTSU.BTO
+[23:52:23.290] C:\COMPAQ\ACLIENT\ACLIENT -SILENT
+[23:52:26.250] Processing ->CMD67 ->SetVar(FBIData,BTOName,C:\appl.zip\install2)
+[23:52:26.250] Processing ->CMD68 ->ProcessBTOName
+[23:52:26.250] WARNING-=-Path not found - c:\appl.zip\install2
+[23:52:26.250] WARNING-=- ProcessBTO(c:\appl.zip\install2) 2-The system cannot find the file specified.  
+[23:52:26.250] Processing ->CMD69 ->C:\appl.zip\ie_more\ie.bto
+[23:52:26.250] WARNING-=-Path not found - c:\appl.zip\ie_more\ie.bto
+[23:52:26.310] WARNING-=- ProcessBTO(c:\appl.zip\ie_more\ie.bto) 2-The system cannot find the file specified.  
+[23:52:26.310] Processing ->CMD70 ->SetVar(FBIData,BTOName,C:\appl.zip\ie_more)
+[23:52:26.310] Processing ->CMD71 ->ProcessBTOName
+[23:52:26.310] c:\appl.zip\ie_more
+[23:52:26.310] c:\appl.zip\ie_more\LCRMS.BTO
+[23:52:26.310] @REM ================================================================================
+[23:52:26.310] @REM This file supports the automatic installation of the following
+[23:52:26.310] @REM application:
+[23:52:26.310] @REM   Compaq Remote ROM Flash and Remote Security
+[23:52:26.310] @REM -----------------------------------------------------------------------
+[23:52:26.310] @REM Copyright 1999, Compaq Computer Corporation.
+[23:52:26.310] @REM =======================================================================
+[23:52:26.310] @REM -----------------------------------------------------------------------
+[23:52:26.310] @REM Use the InstallShield5.1 to install the program.
+[23:52:26.310] @REM -----------------------------------------------------------------------
+[23:52:26.310] @AddToIgnoreList LCRMS.EXE
+[23:52:26.310] C:\APPL.ZIP\LCRMS\setup.exe -s
+[23:52:42.180] c:\appl.zip\ie_more\MKTPOST.BTO
+[23:52:42.240] @REM =======================================================================
+[23:52:42.240] @REM This file performs PostOS Marketing Tweaks.
+[23:52:42.240] @REM -----------------------------------------------------------------------
+[23:52:42.240] @REM Copyright 1995, Compaq Computer Corporation.
+[23:52:42.240] @REM =======================================================================
+[23:52:42.240] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W95 /c:command.com /c C:\APPL.ZIP\BRAND\copybmps.bat
+[23:52:44.100] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W98 /c:command.com /c C:\APPL.ZIP\BRAND\copybmps.bat
+[23:52:46.030] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:NT4 /c:cmd.exe /c C:\APPL.ZIP\BRAND\copybmps.bat
+[23:52:48.000] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W2K /c:cmd.exe /c C:\APPL.ZIP\BRAND\copybmps.bat
+[23:52:50.200] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W95 /c:command.com /c C:\APPL.ZIP\BRAND\REN-URLS.BAT
+[23:52:52.070] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W98 /c:command.com /c C:\APPL.ZIP\BRAND\REN-URLS.BAT
+[23:52:54.210] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:NT4 /c:cmd.exe /c C:\APPL.ZIP\BRAND\REN-URLS.BAT
+[23:52:56.080] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W2K /c:cmd.exe /c C:\APPL.ZIP\BRAND\REN-URLS.BAT
+[23:52:58.270] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:NT4 /c:C:\APPL.ZIP\BRAND\shlfldrs.exe C:\system.sav\shlfldrs.ini
+[23:53:00.140] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W2K /c:C:\APPL.ZIP\BRAND\shlfldrs.exe C:\system.sav\shlfldrs.ini
+[23:53:02.280] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W95 /c:command.com /c C:\APPL.ZIP\BRAND\FAVTOOL.EXE
+[23:53:04.150] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W98 /c:command.com /c C:\APPL.ZIP\BRAND\FAVTOOL.EXE
+[23:53:08.110] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:NT4 /c:cmd.exe /c C:\APPL.ZIP\BRAND\FAVTOOL.EXE
+[23:53:10.300] C:\APPL.ZIP\tools\IFRUNNIN.exe /O:W2K /c:cmd.exe /c C:\APPL.ZIP\BRAND\FAVTOOL.EXE
+[23:53:12.170] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\BRAND\MKTPOST.MST
+[23:53:12.170]            ###SWITCH LOG: Wed Sep 05 23:53:12 2001
+[23:53:12.170]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:53:12.170] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 2:     FILE_NAME$ = "MKTPOST.MST"
+Line 34:     GOSUB INIT_SCRIPT  
+Line 35:     GOSUB INSTALL_SUPPORT_BRANDING
+Line 37:     TargetOS$=GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")    
+Line 39:     IF (StrCmpi(TargetOS$,"WIN98")=0) THEN
+Line 40:        GOSUB INSTALL_LOGO_BRANDING
+Line 41:        GOSUB INSTALL_ALTAVISTA_DEFAULTS
+Line 42:     END IF
+Line 44:     IF (StrCmpi(TargetOS$,"WIN2000")=0) THEN
+Line 45:        GOSUB INSTALL_ALTAVISTA_DEFAULTS_2K
+Line 46:     END IF
+Line 47:    
+Line 48:     GOSUB CFG_CHANNEL
+Line 51:     XLogBanner FILE_NAME$    
+Line 52: ALLDONE:
+Line 53: END
+Line 59: INIT_SCRIPT:
+Line 60:     TargetOS$=GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 61:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 62:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 63:     BRAND_PATH$ = "C:\APPL.ZIP\BRAND"
+Line 64:     WINDIR$ = EnvVar$("windir")
+Line 65:     IF (StrCmpi(TargetOS$,"NT40")=0) OR (StrCmpi(TargetOS$,"WIN2000")=0) THEN
+Line 66:        SYSDIR$ = WINDIR$ + "\SYSTEM32"
+Line 68:     ELSE
+Line 69:        SYSDIR$ = WINDIR$ + "\SYSTEM"
+Line 71:     END IF    
+Line 72:    
+Line 73:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 74:         OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", "C:\TOOLS\PREOS.INI")  
+Line 75:         LogFile$="C:\restore.log"
+Line 76:     ELSE
+Line 77:         OS_SRC$="C:\windows\options\cabs"
+Line 78:         LogFile$ = "C:\system.sav\pisetup.log"
+Line 80:        IF (StrCmpi(TargetOS$,"NT40")=0) OR (StrCmpi(TargetOS$,"WIN2000")=0) THEN
+Line 81:            OS_SRC$="C:\i386"
+Line 82:             LogFile$ = "C:\system.sav\pisetup.log"
+Line 83:        END IF    
+Line 84:     END IF
+Line 86:     SetLogFileName  LogFile$    
+Line 87:     XLogBanner FILE_NAME$
+Line 88: RETURN
+Line 95: INSTALL_LOGO_BRANDING:
+Line 96:    Log "  INSTALL_LOGO_BRANDING"
+Line 98:    LOGO$       = BRAND_PATH$ + "\LOGO.SYS"
+Line 99:    
+Line 100:    ROOTDIR$    = "C:\LOGO.SYS"
+Line 102:    Log "     Copying Splash Screen"
+Line 103:    COPYFILE (LOGO$, ROOTDIR$, 0, 1, "a")
+Line 105: RETURN
+Line 113: INSTALL_SUPPORT_BRANDING:
+Line 114:   Log "  INSTALL_SUPPORT_BRANDING"
+Line 116:   OEMINFO_INI$    = BRAND_PATH$ + "\OEMINFO.INI"
+Line 117:   OEMLOGO_BMP$    = BRAND_PATH$ + "\OEMLOGO.BMP"
+Line 118:   OEMTWEAK_INI$   = BRAND_PATH$ + "\OEMTWEAK.INI"
+Line 119:   OEMTWEAK_EXE$   = BRAND_PATH$ + "\OEMTWEAK.EXE"  
+Line 120:   OEMSTRS_INI$    = BRAND_PATH$ + "\oemstrs.ini"
+Line 122:   Log "     Configuring OEMINFO.INI"
+Line 127:   IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 128:    
+Line 129:     ModelName$ = GetProfileString( "System", "MachineName", "Deskpro Series", "C:\INTRVIEW.INI")
+Line 130:     WriteProfileString( "General","Model",ModelName$,OEMINFO_INI$)  
+Line 131:   ELSE
+Line 132:    
+Line 133:     DESKPRO_TXT$ = "C:\SYSTEM.SAV\DESKPRO.TXT"
+Line 134:    
+Line 135:     ModelName$=GetProfileString( "Hardware Detect", "NAME", "", DESKPRO_TXT$)
+Line 136:     IF LEN(ModelName$)=0 THEN
+Line 137:         ModelName$="Compaq PC"
+Line 138:     END IF
+Line 139:     WriteProfileString ("General","Model",ModelName$, OEMINFO_INI$)
+Line 140:   END IF
+Line 141:   Log "     Model="+ ModelName$
+Line 143:   WriteProfileString ("Options","LogFile", LOGFILE$, OEMTWEAK_INI$)
+Line 144:   WriteProfileString ("Options","INILocation", "C:\system.sav\util\cia.ini", OEMTWEAK_INI$)  
+Line 145:   WriteProfileString ("Options","SectionName", "DESCRIPTION", OEMTWEAK_INI$)  
+Line 146:   WriteProfileString ("Options","KeyValue", "CompaqLanguage", OEMTWEAK_INI$)      
+Line 148:   EditInsertLine(1000,"[flush profile write]",OEMTWEAK_INI$)    
+Line 149:   OEM_SRC$   = " /S:" + OEMSTRS_INI$
+Line 150:   OEM_DES$   = " /D:" + OEMINFO_INI$
+Line 151:   OEM_INI$   = " /I:" + OEMTWEAK_INI$
+Line 152:   CMD1$ = OEMTWEAK_EXE$ + OEM_SRC$ + OEM_DES$ + OEM_INI$
+Line 153:   log "     not running  [" + CMD1$ + "]"
+Line 154:   log "     It will be ran in the BTO after this scriptnot running  "
+Line 155:   run  CMD1$  
+Line 156:   log " "
+Line 157:  
+Line 161:   Log "     copying OEMINFO.INI and OEMLOGO.BMP"
+Line 162:   COPYFILE (OEMINFO_INI$, SYSDIR$, 0, 1, "a")
+Line 163:   COPYFILE (OEMLOGO_BMP$, SYSDIR$, 0, 1, "a")
+Line 164:  
+Line 165: RETURN
+Line 172: CFG_CHANNEL:
+Line 173:   Log "  CFG_CHANNEL"
+Line 175:     TargetOS$=GetProfileString( "DESCRIPTION", "OsSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")    
+Line 176:     IF (StrCmpi(TargetOS$,"NT40")=0) OR (StrCmpi(TargetOS$,"WIN2000")=0)  THEN
+Line 177:       Run "rundll32.exe setupapi.dll,InstallHinfSection DefaultInstall 132 " + BRAND_PATH$ + "\CHANNEL.INF"
+Line 179:     ELSE
+Line 180:       Run "rundll.exe setupx.dll,InstallHinfSection DefaultInstall 132 " + BRAND_PATH$ + "\CHANNEL.INF"
+Line 182:     END IF    
+Line 190: RETURN
+Line 196: INSTALL_ALTAVISTA_DEFAULTS:
+Line 197:   Log "  INSTALL_ALTAVISTA_DEFAULTS"
+Line 199:     OPK$=GetProfileString( "Configuration", "OPK", "0", "C:\SYSTEM.SAV\UTIL\CIA.INI")    
+Line 200:     IF (StrCmpi(OPK$,"1")=0) THEN
+Line 201:       Log "  Win98 SE found"
+Line 202:       Log "  Running ->REGEDIT -s C:\APPL.ZIP\BRAND\W98SE-AV.reg"
+Line 203:       Run "REGEDIT -s C:\APPL.ZIP\BRAND\W98SE-AV.reg"
+Line 204:     END IF    
+Line 206: RETURN
+Line 212: INSTALL_ALTAVISTA_DEFAULTS_2K:
+Line 213:   Log "  INSTALL_ALTAVISTA_DEFAULTS_2K"
+Line 215:       Log "  Running ->REGEDIT -s C:\APPL.ZIP\BRAND\W2K-AV.reg"
+Line 216:       Run "REGEDIT -s C:\APPL.ZIP\BRAND\W2K-AV.reg"
+Line 218: RETURN
+Success|C:\APPL.ZIP\BRAND\MKTPOST.MST
+[23:53:20.080] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:53:20.080]            ###SWITCH LOG: Wed Sep 05 23:53:20 2001
+[23:53:20.140]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:53:20.140] C:\APPL.ZIP\BRAND\SetWppr.exe c:\appl.zip\brand\wallppr.ini
+[23:53:24.140] Processing ->CMD72 ->SetVar(FBIData,BTOName,C:\appl.zip\ie_more2)
+[23:53:24.140] Processing ->CMD73 ->ProcessBTOName
+[23:53:24.140] WARNING-=-Path not found - c:\appl.zip\ie_more2
+[23:53:24.140] WARNING-=- ProcessBTO(c:\appl.zip\ie_more2) 2-The system cannot find the file specified.  
+[23:53:24.140] Processing ->CMD74 ->SetVar(UIA,ErrorCode,946)
+[23:53:24.140] Processing ->CMD75 ->WriteUIAErrorCode
+[23:53:24.250] Processing ->CMD76 ->SetVar(FBIData,BTOName,C:\appl.zip\test)
+[23:53:24.250] Processing ->CMD77 ->ProcessBTOName
+[23:53:24.250] c:\appl.zip\test
+[23:53:24.250] c:\appl.zip\test\BootFix.bto
+[23:53:24.250] @REM =======================================================================
+[23:53:24.250] @REM This file finalizes configuration of Windows 95 under CIA2
+[23:53:24.250] @REM -----------------------------------------------------------------------
+[23:53:24.250] @REM Copyright 1998, Compaq Computer Corporation.
+[23:53:24.310] @REM =======================================================================
+[23:53:24.310] @REM -----------------------------------------------------------------------
+[23:53:24.310] @REM A DOS 16-bit program to search all the boot sectors on the
+[23:53:24.310] @REM hard disk and fix them accordingly
+[23:53:24.310] @REM -----------------------------------------------------------------------
+[23:53:24.310] C:\APPL.ZIP\SCRIPTS\BOOTFIX\FIXBOOT2.EXE -R
+[23:53:27.220] Processing ->CMD78 ->CheckForErrorFlag
+[23:53:27.220] Processing ->CMD79 ->c:\system.sav\fbi\regflush.exe
+[23:53:29.140] Processing ->CMD80 ->SystemReboot
+[23:53:29.140] NOTICE: SM will attempt to restart/shutdown the computer
+FBI Shutting down at ->Wed Sep 05 23:53:29 2001
+<- aka ->999759209
+Run time ->166
+Total Run time ->289
+Total time since first start ->0
+ 
+******************************************************
+FBI StartUp at ->Wed Sep 05 23:58:26 2001<- aka ->999759506
+Reboot time ->0
+Log started on Wed Sep 05 23:58:28 2001
+[23:58:28.650] FBI is starting in Retail mode
+[23:58:28.760] Loading Internal FBI Toolbox functions
+[23:58:28.820] LoadFBIInt15 - FBIInt15.VxD load Successful
+[23:58:28.870] LoadFBIKB_95 - FBIKB_95.VxD load Successful
+[23:58:28.870]  OpenFBIKB_95() - FBIKB_95.VxD driver loaded successfully
+[23:58:28.930] Loading Internal FBI Script functions
+[23:58:28.930] Done Loading FBI Environment
+[23:58:31.180] No Startup Delay defined
+[23:58:31.180] Task Manager thread is starting, current section is ->FactoryPreinstall.WIN98.GLOBAL
+[23:58:31.180] No delay defined...
+[23:58:31.230] Processing ->CMD81 ->SetVar(FBIData,BTOName,C:\appl.zip\cleanup)
+[23:58:31.230] Processing ->CMD82 ->ProcessBTOName
+[23:58:31.340] c:\appl.zip\cleanup
+[23:58:31.340] c:\appl.zip\cleanup\cleanup.bto
+[23:58:31.340] @REM =======================================================================
+[23:58:31.340] @REM This file supports
+[23:58:31.340] @REM
+[23:58:31.340] @REM -----------------------------------------------------------------------
+[23:58:31.340] @REM Copyright 1998 Compaq Computer Corporation.
+[23:58:31.340] @REM =======================================================================
+[23:58:31.340] @REM $ADD HERE$ - OTHER SCRIPTS MAY ADD CLEANUP LINES HERE
+[23:58:31.340] c:\appl.zip\tools\winfeed.exe /i c:\appl.zip\scripts\9xtcpip\cleanup.mst
+[23:58:31.340]            ###SWITCH LOG: Wed Sep 05 23:58:31 2001
+[23:58:31.340]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:31.340] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 18:     CURR_PATH$ = CurDir$
+Line 20:     UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 22:     TargetOS$ = GetProfileString("Description","OSSelection", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 23:        CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 25:     IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 26:         OS_SRC$=GetProfileString( "CONFIGURATION", "OsSrcPath", "", "C:\TOOLS\PREOS.INI")
+Line 27:        BAKDIR$ = OS_SRC$
+Line 28:         LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "c:\system.sav\util\install.log", "C:\TOOL\PREOS.INI")
+Line 29:         SetLogFileName  LogFile$
+Line 30:     ELSE
+Line 31:        BAKDIR$ = "C:\APPL.ZIP\SCRIPTS\9XTCPIP"
+Line 32:         LogFile$= "C:\SYSTEM.SAV\UTIL\INSTALL.LOG"
+Line 33:         XSetLogFileName LogFile$
+Line 34:     END IF    
+Line 36:     Log " "        
+Line 37:     LOG_TEXT$ = "Starting: Cleanup.MST"
+Line 38:     XLogBanner LOG_TEXT$        
+Line 40:     INFDIR$ = "\Windows\INF"
+Line 41:     LOG "      INF Directory = " + INFDIR$
+Line 42:     LOG "      BAK Directory = " + BAKDIR$
+Line 44:        IF StrCmpi(TargetOS$,"WIN95")=0 THEN
+Line 45:                IF StrCmpi(CPQLANG$,"TH")=0 THEN
+Line 46:                        LOG "Thai Win95...exit script."
+Line 47:                        GOTO FINISH
+Line 48:                END IF
+Line 49:        END IF
+Line 53:     NET_DEF$       = INFDIR$ + "\NETDEF.INF"
+Line 54:     NET_DEF_BAK$   = BAKDIR$ + "\NETDEF.BAK"
+Line 55:     Log "      Netdef.inf file is " + NET_DEF$
+Line 57:     Log "      Restoring  " + NET_DEF_BAK$
+Line 58:     Log "              to  " + NET_DEF$
+Line 59:     CopyFile( NET_DEF_BAK$ ,NET_DEF$, 0, 0, "a")
+Line 62:     IF StrCmpi(TargetOS$,"WIN95")=0 THEN
+Line 63:        LOG "   OS = Win95"
+Line 65:        
+Line 66:        NET_TRANS$       = INFDIR$ + "\NETTRANS.INF"
+Line 67:        NET_TRANS_BAK$   = BAKDIR$ + "\NETTRANS.BAK"
+Line 68:        Log "   Nettrans.inf file is " + NET_TRANS$
+Line 69:        Log "   Nettrans.bak file is " + NET_TRANS_BAK$
+Line 71:        Log "   Restoring " + NET_TRANS_BAK$
+Line 72:        Log "           to " + NET_TRANS$
+Line 73:        CopyFile( NET_TRANS_BAK$, NET_TRANS$, 0, 0, "a")
+Line 75:        POPUP$ = "c:\appl.zip\scripts\9xtcpip\cpqsm.exe c:\appl.zip\scripts\9xtcpip\popup.ini"
+Line 76:        Log "   Running " + POPUP$
+Line 77:        Run POPUP$
+Line 78:     END IF
+Line 80: Log "  Done processing"
+Line 83: Log " "        
+Line 84: LOG_TEXT$ = "Exiting: Cleanup.MST"
+Line 85: XLogBanner LOG_TEXT$        
+Line 86: FINISH:
+Line 87: END
+ 
+ 
+****** Starting: Cleanup.MST ******
+ 
+        INF Directory = \Windows\INF
+        BAK Directory = C:\APPL.ZIP\SCRIPTS\9XTCPIP
+        Netdef.inf file is \Windows\INF\NETDEF.INF
+        Restoring  C:\APPL.ZIP\SCRIPTS\9XTCPIP\NETDEF.BAK
+              to  \Windows\INF\NETDEF.INF
+  Done processing
+ 
+ 
+****** Exiting: Cleanup.MST ******
+ 
+Success|c:\appl.zip\scripts\9xtcpip\cleanup.mst
+[23:58:36.290] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:36.290]            ###SWITCH LOG: Wed Sep 05 23:58:36 2001
+[23:58:36.290]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:36.290] @REM -----------------------------------------------------------------------
+[23:58:36.290] @REM CLEANUP2.MST
+[23:58:36.290] @REM -----------------------------------------------------------------------
+[23:58:36.290] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\CLEANUP2.MST
+[23:58:36.340]            ###SWITCH LOG: Wed Sep 05 23:58:36 2001
+[23:58:36.340]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:36.340] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 12:   CONST CIA_INI$        = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 13:   BUILD_RTR$=GetProfileString( "CONFIGURATION", "BuildRTR", "FALSE",CIA_INI$)
+Line 14:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 16:     EditCaseSensitive (0)
+Line 18:     xLog "     Deleting ASPI files"
+Line 19:     DeleteFileIfExists "c:\ASPI8DOS.SYS"
+Line 20:     DeleteFileIfExists "c:\ASPICD.SYS"
+Line 21:     DeleteFileIfExists "c:\ASPI8U2.SYS"
+Line 23:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 24:  
+Line 25:     SetLogFileName "c:\restore.log"
+Line 26:     XLogBanner "Skip Cleanup2.mst"
+Line 27:     Goto AllDone    
+Line 28:   END IF
+Line 30:   CONST CIA_SECTION$    = "Configuration"
+Line 31:   CONST CIA_KEYW$       = "PISetupKeyboard"
+Line 36:   CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", CIA_INI$)
+Line 41: Run "c:\windows\rundll.exe setupx.dll,InstallHinfSection DefaultInstall 132 c:\appl.zip\scripts\w98etool\imgclean.inf"
+Line 46:   CTO_TXT$ = "C:\SYSTEM.SAV\CTO.TXT"
+Line 47:   NEW_LINE$ = ""
+Line 48:   IF FileExists(CTO_TXT$) THEN
+Line 49:     IF StrCmp(BUILD_RTR$,"TRUE")=0 THEN
+Line 50:        EditInsertLine( 0, "[Super Image - CTO.TXT]", CTO_TXT$ )
+Line 51:        
+Line 52:        
+Line 53:     ELSE
+Line 54:        EditInsertLine( 0, "[CTO.TXT]", CTO_TXT$ )
+Line 55:        
+Line 56:        
+Line 57:     END IF
+Line 58:   END IF
+Line 63:   IF StrCmp(BUILD_RTR$,"TRUE")=0 THEN
+Line 64:      
+Line 65:      
+Line 66:      
+Line 67:      
+Line 69:      BOOTSEC_32$ = "C:\BOOTSEC.32"
+Line 70:      IF FileExists(BOOTSEC_32$) THEN
+Line 71:         CopyFile(BOOTSEC_32$, "C:\SYSTEM.SAV\BOOTSEC.32",0,0,"a")
+Line 72:      END IF
+Line 73:   END IF
+Line 75: AllDone:
+Line 76: END
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\CLEANUP2.MST
+[23:58:40.190] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:40.190]            ###SWITCH LOG: Wed Sep 05 23:58:40 2001
+[23:58:40.240]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:40.240] C:\COMMAND.COM /C C:\APPL.ZIP\TOOLS\CLEANDIR.BAT
+[23:58:42.160] C:\COMMAND.COM /C C:\APPL.ZIP\TOOLS\SYSSAVE.BAT
+[23:58:44.030] @REM -----------------------------------------------------------------------
+[23:58:44.030] @REM Run \WINDOWS\SYSTEM\SFC.EXE /V to correct known MS Corrupted Setupx.dll issue
+[23:58:44.030] @REM -----------------------------------------------------------------------
+[23:58:44.030] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\SFC.MST
+[23:58:44.030]            ###SWITCH LOG: Wed Sep 05 23:58:44 2001
+[23:58:44.030]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:44.030] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 9:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 10:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 11:   INFO_RTR$ = "C:\INFO.RTR"
+Line 12:   BUILD_RTR$=GetProfileString( "CONFIGURATION", "BuildRTR", "",CIA_INI$)
+Line 13:   WIN98$=GetProfileString( "DESCRIPTION", "WIN98", "",CIA_INI$)
+Line 14:   LogFile$=GetProfileString( "CONFIGURATION", "LogFile", "", CIA_INI$ )
+Line 16:   IF (StrCmpi(BUILD_RTR$,"TRUE")=0) OR (StrCmpi(UseRedwood$,"YES")=0) THEN
+Line 17:     Goto SFC
+Line 18:   ELSE
+Line 19:     Goto NonRTR
+Line 20:   END IF
+Line 22: SFC:
+Line 23:  
+Line 24:   IF (StrCmpi(WIN98$,"OEM")=0) OR (StrCmpi(WIN98$,"OSR0")=0) THEN
+Line 25:     Goto GoldW98
+Line 26:   END IF
+Line 28:  
+Line 29:   CopyFile("C:\APPL.ZIP\SCRIPTS\W98ETOOL\default.sfc", "c:\windows\default.sfc",0,1,"a")
+Line 30:   RUN ("C:\WINDOWS\SYSTEM\SFC.EXE /v")
+Line 31:   SetLogFileName "c:\system.sav\sfc.log"
+Line 32:   XLogBanner "Executed SFC /V to clean out system baseline file (default.sfc) and to re-populate baseline file with new system data."
+Line 33:   Goto AllDone
+Line 35: GOLDW98:
+Line 36:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 37:     SetLogFileName LogFile$
+Line 38:   ELSE
+Line 39:     Logfile$ = "C:\SYSTEM.SAV\UTIL\INSTALL.LOG"
+Line 40:     SetLogFileName LogFile$
+Line 41:   END IF
+Line 42:   XLogBanner "OS version is Win98 Gold; did not run SFC.EXE."
+Line 43:   Goto AllDone
+Line 45: NonRTR:
+Line 46:   Logfile$ = "C:\SYSTEM.SAV\UTIL\INSTALL.LOG"
+Line 47:   SetLogFileName Logfile$
+Line 48:   XLogBanner "Not SI build; did not run SFC.EXE."
+Line 50: AllDone:
+Line 51: END
+ 
+****** Not SI build; did not run SFC.EXE. ******
+ 
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\SFC.MST
+[23:58:47.220] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:47.220]            ###SWITCH LOG: Wed Sep 05 23:58:47 2001
+[23:58:47.220]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:47.220] @REM -----------------------------------------------------------------------
+[23:58:47.220] @REM Reset the registry for Super Image Build
+[23:58:47.220] @REM -----------------------------------------------------------------------
+[23:58:47.270] C:\APPL.ZIP\SCRIPTS\SI_INF\SETUP.EXE -S
+[23:58:53.200] C:\APPL.ZIP\TOOLS\WINFEED -IK C:\APPL.ZIP\SCRIPTS\W98ETOOL\RESETREG.MST
+[23:58:53.200]            ###SWITCH LOG: Wed Sep 05 23:58:53 2001
+[23:58:53.200]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:53.260] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 8:   CIA_INI$ = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 9:   CONST PISETUP_BMP$ = "C:\APPL.ZIP\TOOLS\PiSetup.bmp"
+Line 11:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 12:   IF StrCmp(UseRedwood$,"YES")=0 THEN
+Line 13:        Goto AllDone
+Line 14:   END IF
+Line 16:   BUILD_RTR$=GetProfileString( "CONFIGURATION", "BuildRTR", "FALSE",CIA_INI$)
+Line 17:   IF NOT StrCmp(BUILD_RTR$,"TRUE")=0 THEN
+Line 18:        Goto AllDone
+Line 19:   END IF
+Line 21:     CopyFile(PISETUP_BMP$, "\Windows\PiSetup.bmp")
+Line 23:     CONST RESET_BAT$ = "c:\command.com /c \appl.zip\tools\SI_RESET.BAT"
+Line 24:     Run RESET_BAT$
+Line 26: AllDone:
+Line 27: END
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\RESETREG.MST
+[23:58:56.060] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:56.060]            ###SWITCH LOG: Wed Sep 05 23:58:56 2001
+[23:58:56.060]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:56.060] @REM -----------------------------------------------------------------------
+[23:58:56.060] @REM Reset End User Experience.  MUST BE THE LAST SCRIPT.
+[23:58:56.060] @REM -----------------------------------------------------------------------
+[23:58:56.060] C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\PREPIT.MST
+[23:58:56.060]            ###SWITCH LOG: Wed Sep 05 23:58:56 2001
+[23:58:56.060]            ###CHANGING TO: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:58:56.060] Switching Log File to C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+Line 10:   CIA_INI$   = "C:\SYSTEM.SAV\UTIL\CIA.INI"
+Line 11:   BUILD_RTR$ = GetProfileString( "CONFIGURATION", "BuildRTR", "FALSE",CIA_INI$)
+Line 12:   OSR_LEVEL$ = GetProfileString( "DESCRIPTION", "WIN98", "OSR0",CIA_INI$)
+Line 14:   UseRedwood$=GetProfileString( "CONFIGURATION", "UseRedwood", "", CIA_INI$)
+Line 15:   IF StrCmpi(UseRedwood$,"YES")=0 THEN
+Line 16:  
+Line 17:     SetLogFileName "c:\restore.log"
+Line 18:     XLogBanner "Skip PREPIT.MST"
+Line 19:     Goto AllDone    
+Line 20:   END IF
+Line 22:   SetLogFileName  "c:\system.sav\util\install.log"
+Line 23:   Log " "        
+Line 24:   XLogBanner "Starting: PREPIT.MST"
+Line 26:  CONST INFO_RTR$       = "C:\INFO.RTR"
+Line 27:  IF FileExists(INFO_RTR$)=0 THEN
+Line 29:    
+Line 30:    
+Line 31:    
+Line 32:     CPQLANG$=GetProfileString( "DESCRIPTION", "CompaqLanguage", "", "C:\SYSTEM.SAV\UTIL\CIA.INI")
+Line 34:    
+Line 35:    
+Line 36:    
+Line 37:  
+Line 38:    
+Line 39:     Log "      Modify MSBatch.INF"
+Line 41:     CONST INF_FILE$   = "C:\WINDOWS\MSBATCH.INF"
+Line 42:     CONST Oldline$    = "IgnoreDetectedNetCards=1"
+Line 43:     CONST Newline$    = "IgnoreDetectedNetCards=0"
+Line 44:     CONST Findline$   = "IgnoreDetectedNetCards=0"
+Line 45:     CONST Addline$    = "NetCards=*PNP8386,*PNP8387,NabtsIp"
+Line 46:     CONST ProtocolLine$   = "Protocols=MSTCP"
+Line 47:     CONST ClientLine$ = "Clients=VREDIR"
+Line 48:     CONST OldComputerName$= "ComputerName=OEMComputer"
+Line 49:     CONST NewComputerName$= ";ComputerName=OEMComputer"
+Line 50:     CONST OldWorkgroup$   = "Workgroup=OEMWorkgroup"
+Line 51:     CONST NewWorkGroup$   = ";Workgroup=OEMWorkgroup"
+Line 53:     If FileExists(INF_FILE$) THEN
+Line 54:         EditReplaceString(OldLine$,NewLine$,INF_FILE$)
+Line 55:         Log "     Modifying " + OldLine$
+Line 56:     Else
+Line 57:         Log "ERROR cannot modify " + INF_FILE$  
+Line 58:     End If
+Line 60:    
+Line 61:     If FileExists(INF_FILE$) THEN
+Line 62:         EditAppendLine (Newline$,ProtocolLine$,INF_FILE$)
+Line 63:         Log "     Adding " + ProtocolLine$
+Line 64:     Else
+Line 65:         Log "ERROR cannot modify " + INF_FILE$  
+Line 66:     End If
+Line 68:    
+Line 69:     If FileExists(INF_FILE$) THEN
+Line 70:         EditAppendLine (ProtocolLine$,ClientLine$,INF_FILE$)
+Line 71:         Log "     Adding " + ClientLine$
+Line 72:     Else
+Line 73:         Log "ERROR cannot modify " + INF_FILE$  
+Line 74:     End If
+Line 76:    
+Line 77:     If FileExists(INF_FILE$) THEN
+Line 78:         EditReplaceString(OldComputerName$,NewComputerName$,INF_FILE$)
+Line 79:         Log "     Modifying " + OldComputerName$
+Line 80:     Else
+Line 81:         Log "ERROR cannot modify " + INF_FILE$  
+Line 82:     End If
+Line 84:    
+Line 85:     If FileExists(INF_FILE$) THEN
+Line 86:         EditReplaceString(OldWorkgroup$,NewWorkGroup$,INF_FILE$)
+Line 87:         Log "     Modifying " + OldWorkGroup$
+Line 88:     Else
+Line 89:         Log "ERROR cannot modify " + INF_FILE$  
+Line 90:     End If
+Line 92:  
+Line 93:  END IF
+Line 96:    
+Line 97:    
+Line 98:    
+Line 114:  
+Line 121:  IF StrCmp(BUILD_RTR$,"TRUE")=0 THEN
+Line 122:      GOTO AllDone
+Line 124:  ELSE
+Line 126:    
+Line 127:    
+Line 128:    
+Line 129:     AUTOTEST$=GetProfileString( "CONFIGURATION", "TestAutomationMode", "FALSE",CIA_INI$)
+Line 130:     IF StrCmp(AUTOTEST$,"FALSE")=0 THEN
+Line 131:       Log "      RUN: Reset1.bat"
+Line 132:       CONST ResetEndUser1$ = "c:\command.com /c \appl.zip\tools\reset1.bat"
+Line 133:       Run ResetEndUser1$
+Line 135:         IF StrCmp(OSR_LEVEL$,"OSR0")=0 THEN
+Line 136:            Run "c:\windows\rundll.exe setupx.dll,InstallHinfSection DefaultInstall 132 c:\appl.zip\scripts\w98etool\clear.inf"
+Line 137:         ELSEIF StrCmp(OSR_LEVEL$,"OSR1")=0 THEN
+Line 138:            Run "c:\windows\rundll.exe setupx.dll,InstallHinfSection DefaultInstall 128 c:\appl.zip\scripts\w98etool\clear.inf"
+Line 139:            Run "c:\windows\rundll.exe setupx.dll,InstallHinfSection DefaultInstall 132 c:\appl.zip\scripts\w98etool\oobe.inf"
+Line 140:            CMD$ = "regedit -s c:\appl.zip\tools\PID.reg"
+Line 141:            Log "     Running [" + CMD$ + " to populate ProductKey for customer." + "]"
+Line 142:            run CMD$
+Line 143:         END IF
+Line 145:      
+Line 146:      
+Line 147:      
+Line 148:       Run "c:\windows\rundll.exe setupx.dll,InstallHinfSection UpdateRegistry 132 c:\appl.zip\scripts\w98etool\clear.inf"
+Line 150:     END IF
+Line 153:      Log "BUILD RTR False"
+Line 155:    
+Line 156:    
+Line 157:    
+Line 158:    
+Line 160:    
+Line 161:    
+Line 162:    
+Line 163:      CMD$ = "regedit -s c:\appl.zip\tools\IniUpdat.reg"
+Line 164:      Log "     Running [" + CMD$ + " to Update Win.ini with user selected regional setting." + "]"
+Line 165:      run CMD$
+Line 167:    
+Line 168:    
+Line 169:    
+Line 170:      AUTOEXEC$ = "C:\AUTOEXEC.BAT"
+Line 171:      DONTECHO$ = "@ECHO OFF"
+Line 172:      REGLINE$  = "c:\windows\regedit /l:c:\windows\system.dat c:\system.sav\cpqsfc.reg > NUL"
+Line 173:      DELLINE$  = "del c:\system.sav\cpqsfc.reg > NUL"
+Line 174:      RESTORE$  = "COPY C:\SYSTEM.SAV\AUTOEXEC.BAT C:\AUTOEXEC.BAT > NUL"
+Line 176:      EditAppendLine(100, DONTECHO$, AUTOEXEC$)
+Line 177:      EditAppendLine(DONTECHO$, REGLINE$, AUTOEXEC$)
+Line 178:      EditAppendLine(REGLINE$, DELLINE$, AUTOEXEC$)
+Line 179:      EditAppendLine(DELLINE$, RESTORE$, AUTOEXEC$)
+Line 181:  END IF
+Line 187:   DeleteFileIfExists "C:\INFO.RTR"
+Line 189: AllDone:
+Line 190: END
+ 
+ 
+****** Starting: PREPIT.MST ******
+ 
+      RUN: Reset1.bat
+     Running [regedit -s c:\appl.zip\tools\PID.reg to populate ProductKey for customer.]
+BUILD RTR False
+     Running [regedit -s c:\appl.zip\tools\IniUpdat.reg to Update Win.ini with user selected regional setting.]
+Success|C:\APPL.ZIP\SCRIPTS\W98ETOOL\PREPIT.MST
+[23:59:01.110] Switching to this Log File from C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:59:01.110]            ###SWITCH LOG: Wed Sep 05 23:59:01 2001
+[23:59:01.110]            ###COMING FROM: C:\SYSTEM.SAV\UTIL\INSTALL2.LOG
+[23:59:01.110] @REM -----------------------------------------------------------------------
+[23:59:01.110] @REM If RTR image Run Winbat.exe from Cpqdiag --This is no longer needed LM 10/11/99
+[23:59:01.110] @REM -----------------------------------------------------------------------
+[23:59:01.170] @REM C:\APPL.ZIP\TOOLS\WINFEED.EXE /I C:\APPL.ZIP\SCRIPTS\W98ETOOL\98DIAG.MST
+[23:59:02.160] Processing ->CMD83 ->c:\system.sav\fbi\regflush.exe
+[23:59:04.020] Processing ->CMD84 ->SetVar(FbiData,ProcessState,Cleanup)
+[23:59:04.080] Processing ->CMD85 ->UnHookFBIToRunAgain
+[23:59:04.080] Processing ->CMD86 ->SetupCleanupDirectories
+[23:59:04.130] Processing ->CMD87 ->DelOsFiles
+[23:59:04.130] Processing ->CMD88 ->DelApplZipFiles
+[23:59:05.290] Processing ->CMD89 ->DelGeneralFiles
+[23:59:07.320] Processing ->CMD90 ->DelCvaLangFiles
+[23:59:07.320] Processing ->CMD91 ->DelCvaInfoFiles
+[23:59:07.320] Processing ->CMD92 ->SetVar(GUIPBMain,Full,1)
+[23:59:07.320] Processing ->CMD93 ->DelMiniWindowsFiles
+[23:59:07.320] Processing ->CMD94 ->SetVar(UIA,ErrorCode,947)
+[23:59:07.320] Processing ->CMD95 ->WriteUIAErrorCode
+[23:59:07.370] Processing ->CMD96 ->ActivateDiagsPartition
+[23:59:07.370] Processing ->CMD97 ->SetVar(UIA,ErrorCode,0)
+[23:59:07.370] Processing ->CMD98 ->WriteUIAErrorCode
+[23:59:07.430] Processing ->CMD99 ->EnableRemovableMedia
+[23:59:07.430]  OpenFBIInt15() - FBIInt15.VxD driver loaded successfully
+ 
+[23:59:07.430] Processing ->CMD100 ->RestoreApmSettings
+[23:59:07.430] Processing ->CMD101 ->HideActivity
+[23:59:07.430] Processing ->CMD102 ->setvar(GUISingleOK,BMPResID,278)
+[23:59:07.430] Processing ->CMD103 ->setvar(GUISingleOK,AccelResID,179)
+[23:59:07.430] Processing ->CMD104 ->setvar(GUISingleOK,NoFail,1)
+[23:59:07.430] Processing ->CMD105 ->ShowSingleOK
+[23:59:39.780] Processing ->CMD106 ->setvar(GUISingleOK,NoFail,0)
+[23:59:39.780] Processing ->CMD107 ->CleanEventLog
+[23:59:39.780] Processing ->CMD108 ->SetVar(FbiData,ProcessState,Done)
+[23:59:39.950] Processing ->CMD109 ->Suicide
+[23:59:40.000] NOTICE: SM will attempt to restart/shutdown the computer
+FBI Shutting down at ->Wed Sep 05 23:59:40 2001
+<- aka ->999759580
+Run time ->74
+Total Run time ->363
+Total time since first start ->0
+==========================================================
+ 
+Starting IniUpdat.exe
+ 
+Updated Win.ini for locale: 00000409
+ 
+==========================================================
